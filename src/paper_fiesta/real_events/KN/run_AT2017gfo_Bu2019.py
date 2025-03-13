@@ -1,17 +1,25 @@
+"""
+Analyze AT2017gfo with the Bulla2019 model
+
+FIXME: broken, since loading the model breaks on loading in the MinMaxScalerJax
+"""
 import os
 import jax 
-print(f"GPU found? {jax.devices()}")
 import jax.numpy as jnp
-# jax.config.update("jax_enable_x64", True)
 import numpy as np
 import matplotlib.pyplot as plt
 import corner
+jax.config.update("jax_enable_x64", True)
+
+print(f"GPU found? {jax.devices()}")
 
 from fiesta.inference.lightcurve_model import BullaLightcurveModel
 from fiesta.inference.likelihood import EMLikelihood
 from fiesta.inference.prior import Uniform, CompositePrior
 from fiesta.inference.fiesta import Fiesta
 from fiesta.utils import load_event_data
+
+import paper_fiesta.utils as paper_utils
 
 import time
 start_time = time.time()
@@ -63,10 +71,11 @@ trigger_time = 57982.5285236896
 ### MODEL  ###
 ##############
 
-name = "Bu2019lm"
+name = "Bu2019"
 label = name
+model_dir = os.path.join(paper_utils.BASE_DIR_LC_MODELS, name, "model/")
 model = BullaLightcurveModel(name,
-                             f"../../lightcurve_models/KN/{name}/",
+                             model_dir, 
                              filters)
 
 ############
@@ -122,8 +131,8 @@ if not os.path.exists(outdir):
 fiesta = Fiesta(likelihood,
                 prior,
                 n_chains = 1_000,
-                n_loop_training = 5,
-                n_loop_production = 3,
+                n_loop_training = 10,
+                n_loop_production = 5,
                 num_layers = 4,
                 hidden_size = [32, 32],
                 n_epochs = 10,
@@ -135,6 +144,8 @@ fiesta = Fiesta(likelihood,
 fiesta.sample(jax.random.PRNGKey(0))
 
 fiesta.print_summary()
+
+# TODO: store this in utils.py
 
 name = outdir + f'results_training.npz'
 print(f"Saving samples to {name}")

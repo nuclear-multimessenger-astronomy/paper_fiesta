@@ -1,4 +1,6 @@
 """
+FIXME: script is broken, need to check again
+
 Injection runs with afterglowpy gaussian
 """
 
@@ -12,16 +14,18 @@ import corner
 
 print(f"GPU found? {jax.devices()}")
 
-from fiestaEM.inference.lightcurve_model import AfterglowpyPCA, PCALightcurveModel
-from fiestaEM.inference.injection import InjectionRecoveryAfterglowpy
-from fiestaEM.inference.likelihood import EMLikelihood
-from fiestaEM.inference.prior import Uniform, CompositePrior, Constraint
-from fiestaEM.inference.prior_dict import ConstrainedPrior
-from fiestaEM.inference.fiesta import Fiesta
-from fiestaEM.utils import load_event_data, write_event_data
+from fiesta.inference.lightcurve_model import PCALightcurveModel
+from fiesta.inference.injection import InjectionRecoveryAfterglowpy
+from fiesta.inference.likelihood import EMLikelihood
+from fiesta.inference.prior import Uniform, Constraint
+from fiesta.inference.prior_dict import ConstrainedPrior
+from fiesta.inference.fiesta import Fiesta
+from fiesta.utils import load_event_data, write_event_data
 
 import time
 start_time = time.time()
+
+import paper_fiesta.utils as paper_utils
 
 ################
 ### Preamble ###
@@ -66,11 +70,8 @@ default_corner_kwargs = dict(bins=40,
 ### MODEL  ###
 ##############
 
-BASE_DIR_FLUX_MODELS = "/home/twouters2/projects/fiesta/fiestaEM/flux_models/"
-BASE_DIR_FLUX_MODELS = "/home/twouters2/projects/fiesta/fiestaEM/lightcurve_models/"
-
 name = "gaussian"
-model_dir = f"../../flux_models/afterglowpy_{name}/model"
+model_dir = os.path.join(paper_utils.BASE_DIR_FLUX_MODELS, "afterglowpy/")
 FILTERS = ["radio-3GHz", "radio-6GHz", "X-ray-1keV", "bessellv"]
 
 model = AfterglowpyPCA(name,

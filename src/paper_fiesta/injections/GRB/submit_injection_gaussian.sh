@@ -3,12 +3,12 @@
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -p gpu
-#SBATCH -t 00:30:00
+#SBATCH -t 00:20:00
 #SBATCH --gpus-per-node=1
 #SBATCH --cpus-per-gpu=1
 #SBATCH --mem-per-gpu=5G
-#SBATCH --output=outdir_AT2017gfo_Bu2019/log.out
-#SBATCH --job-name=AT2017gfo_Bu2019
+#SBATCH --output=./outdir_injection_gaussian/log.out
+#SBATCH --job-name=injection_gaussian
 
 now=$(date)
 echo "$now"
@@ -22,6 +22,6 @@ conda activate /home/twouters2/miniconda3/envs/fiesta
 nvidia-smi --query-gpu=name --format=csv,noheader
 
 # Run the script
-python run_AT2017gfo_Bu2019.py
+python injection_gaussian.py
 
 echo "DONE"
