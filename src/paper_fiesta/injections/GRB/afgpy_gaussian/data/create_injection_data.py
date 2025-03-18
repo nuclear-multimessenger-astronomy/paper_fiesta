@@ -1,6 +1,5 @@
 
 from fiesta.inference.injection import InjectionAfterglowpy
-from fiesta.utils import write_event_data
 
 
 param_dict = {"inclination_EM": 0.174, 
@@ -27,8 +26,4 @@ injection = InjectionAfterglowpy(jet_type=0,
                                  trigger_time=param_dict["trigger_time"])
 injection.create_injection(param_dict)
 data = injection.data
-
-
-write_event_data("./injection_afterglowpy_gaussian.dat", data)
-with open("param_dict.dat", "w") as o:
-    o.write(str(param_dict))
+injection.write_to_file("./injection_afterglowpy_gaussian.dat")
