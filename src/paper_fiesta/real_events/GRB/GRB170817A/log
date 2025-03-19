@@ -1,0 +1,48 @@
+This surrogate afgpy_gaussian should only be used in the following parameter ranges:
+	 inclination_EM: (0, 1.5707963267948966)
+	 log10_E0: (47, 57)
+	 thetaCore: (0.01, 0.6283185307179586)
+	 alphaWing: (0.2, 3.5)
+	 log10_n0: (-6, 2)
+	 p: (2.01, 3)
+	 log10_epsilon_e: (-4, 0)
+	 log10_epsilon_B: (-8, 0)
+Loaded SurrogateLightcurveModel with filters ['X-ray-1keV', 'bessellv', 'radio-3GHz', 'radio-6GHz'].
+Converting error budget to dictionary.
+NOTE: No detection limit is given. Putting it to infinity.
+Loading and preprocessing observations in likelihood . . .
+Loading and preprocessing observations in likelihood . . . DONE
+INFO: Using MALA as local sampler
+No autotune found, use input sampler_params
+Training normalizing flow
+Compiling MALA body
+Starting Production run
+Training summary
+==========
+inclination_EM: 0.890 +/- 0.366
+log10_E0: 52.608 +/- 1.361
+thetaCore: 0.228 +/- 0.145
+alphaWing: 2.744 +/- 0.707
+log10_n0: -0.700 +/- 1.704
+p: 2.156 +/- 0.103
+log10_epsilon_e: -1.579 +/- 1.010
+log10_epsilon_B: -4.561 +/- 1.858
+Log probability: -697.619 +/- 6004.437
+Local acceptance: 0.572 +/- 0.495
+Global acceptance: 0.176 +/- 0.380
+Max loss: 11.208, Min loss: 1.505
+Production summary
+==========
+inclination_EM: 0.842 +/- 0.344
+log10_E0: 52.717 +/- 1.289
+thetaCore: 0.157 +/- 0.080
+alphaWing: 3.050 +/- 0.342
+log10_n0: -0.661 +/- 1.528
+p: 2.135 +/- 0.027
+log10_epsilon_e: -1.533 +/- 1.040
+log10_epsilon_B: -4.584 +/- 1.833
+Log probability: -14.796 +/- 1.768
+Local acceptance: 0.626 +/- 0.484
+Global acceptance: 0.323 +/- 0.467
+Saving training samples to ./afgpy/results_training.npz
+Saving production samples to ./afgpy/results_production.npz
