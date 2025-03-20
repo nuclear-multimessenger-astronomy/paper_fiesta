@@ -22,7 +22,7 @@ from fiesta.utils import load_event_data
 
 data = load_event_data("../../data/GRB211211A.dat")
 trigger_time = 59559.54791666667
-FILTERS = data.keys()
+FILTERS = list(data.keys())
 
 #########
 # MODEL #
@@ -31,7 +31,6 @@ FILTERS = data.keys()
 model = AfterglowFlux(name="afgpy_gaussian",
                       directory="../../../surrogates/afgpy_gaussian_CVAE/",
                       filters = FILTERS)
-
 
 #########
 # PRIOR #
@@ -75,10 +74,10 @@ prior = ConstrainedPrior(prior_list, conversion_function)
   
 detection_limit = None
 likelihood = EMLikelihood(model,
-                          data,
+                          data, #{"X-ray-1keV": data["X-ray-1keV"]},
                           FILTERS,
                           tmin=1e-4,
-                          tmax=100.,
+                          tmax=150.,
                           trigger_time=trigger_time,
                           detection_limit = detection_limit,
                           fixed_params={"luminosity_distance": 358.47968, "redshift": 0.0763},
