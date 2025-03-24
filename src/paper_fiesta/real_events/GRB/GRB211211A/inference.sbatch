@@ -14,4 +14,4 @@
 
 conda activate fiesta
 
-python inference_afgpy.py
+python inference_pbag.py

@@ -1,5 +1,5 @@
 [CudaDevice(id=0)]
-This surrogate afgpy_gaussian should only be used in the following parameter ranges:
+This surrogate gaussian should only be used in the following parameter ranges:
 	 inclination_EM: (0, 1.5707963267948966)
 	 log10_E0: (47, 57)
 	 thetaCore: (0.01, 0.6283185307179586)
@@ -8,6 +8,7 @@ This surrogate afgpy_gaussian should only be used in the following parameter ran
 	 p: (2.01, 3)
 	 log10_epsilon_e: (-4, 0)
 	 log10_epsilon_B: (-8, 0)
+	 Gamma0: (100, 1000)
 Loaded SurrogateLightcurveModel with filters ['2massh', '2massj', '2massks', 'X-ray-1keV', 'bessellb', 'besselli', 'bessellr', 'bessellux', 'bessellv', 'ps1::g', 'ps1::i', 'ps1::r', 'ps1::z', 'radio-6GHz', 'uvot::b', 'uvot::u', 'uvot::uvm2', 'uvot::uvw1', 'uvot::uvw2', 'uvot::v', 'uvot::white'].
 Converting error budget to dictionary.
 NOTE: No detection limit is given. Putting it to infinity.
@@ -16,3 +17,36 @@ Loading and preprocessing observations in likelihood . . . DONE
 INFO: Using MALA as local sampler
 No autotune found, use input sampler_params
 Training normalizing flow
+Compiling MALA body
+Starting Production run
+Training summary
+==========
+inclination_EM: 0.107 +/- 0.202
+log10_E0: 51.036 +/- 1.226
+thetaCore: 0.209 +/- 0.163
+alphaWing: 1.283 +/- 0.898
+log10_n0: -3.672 +/- 1.552
+p: 2.430 +/- 0.165
+log10_epsilon_e: -0.416 +/- 0.760
+log10_epsilon_B: -1.847 +/- 1.504
+Gamma0: 640.664 +/- 227.252
+Log probability: -8871.527 +/- 72555.906
+Local acceptance: 0.348 +/- 0.476
+Global acceptance: 0.055 +/- 0.229
+Max loss: 12.618, Min loss: 5.481
+Production summary
+==========
+inclination_EM: 0.017 +/- 0.011
+log10_E0: 50.760 +/- 0.238
+thetaCore: 0.211 +/- 0.115
+alphaWing: 0.651 +/- 0.816
+log10_n0: -4.665 +/- 0.337
+p: 2.511 +/- 0.052
+log10_epsilon_e: -0.105 +/- 0.067
+log10_epsilon_B: -1.181 +/- 0.465
+Gamma0: 766.749 +/- 169.938
+Log probability: -64.690 +/- 2.394
+Local acceptance: 0.316 +/- 0.465
+Global acceptance: 0.124 +/- 0.329
+Saving training samples to ./pbag/results_training.npz
+Saving production samples to ./pbag/results_production.npz
