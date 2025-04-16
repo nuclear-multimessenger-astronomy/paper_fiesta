@@ -1774,3 +1774,54 @@ Acceptance Rate:                        0.272657
 Replacements:                              21974
 Total Samples:                             80592
 Nested Sampling ln(Z):                -15.029874
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.272298
+Replacements:                              22024
+Total Samples:                             80882
+Nested Sampling ln(Z):                -14.930857
+Acceptance Rate:                        0.271891
+Replacements:                              22074
+Total Samples:                             81187
+Nested Sampling ln(Z):                -14.834204
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.271254
+Replacements:                              22124
+Total Samples:                             81562
+Nested Sampling ln(Z):                -14.739778
+Acceptance Rate:                        0.270798
+Replacements:                              22174
+Total Samples:                             81884
+Nested Sampling ln(Z):                -14.648476
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.270069
+Replacements:                              22224
+Total Samples:                             82290
+Nested Sampling ln(Z):                -14.558983
+Acceptance Rate:                        0.269707
+Replacements:                              22274
+Total Samples:                             82586
+Nested Sampling ln(Z):                -14.471018
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.269139
+Replacements:                              22324
+Total Samples:                             82946
+Nested Sampling ln(Z):                -14.386324
+Acceptance Rate:                        0.268595
+Replacements:                              22374
+Total Samples:                             83300
+Nested Sampling ln(Z):                -14.303542
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.267938
+Replacements:                              22424
+Total Samples:                             83691
+Nested Sampling ln(Z):                -14.223028
