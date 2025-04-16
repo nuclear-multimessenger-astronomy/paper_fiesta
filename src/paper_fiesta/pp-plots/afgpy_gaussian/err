@@ -1,0 +1,909 @@
+13:42 fiesta INFO    : Loading surrogate afgpy_gaussian_CVAE. This surrogate should only be used in the following parameter ranges:
+13:42 fiesta INFO    : 	 inclination_EM: (0, 1.5707963267948966)
+13:42 fiesta INFO    : 	 log10_E0: (47, 57)
+13:42 fiesta INFO    : 	 thetaCore: (0.01, 0.6283185307179586)
+13:42 fiesta INFO    : 	 alphaWing: (0.2, 3.5)
+13:42 fiesta INFO    : 	 log10_n0: (-6, 2)
+13:42 fiesta INFO    : 	 p: (2.01, 3)
+13:42 fiesta INFO    : 	 log10_epsilon_e: (-4, 0)
+13:42 fiesta INFO    : 	 log10_epsilon_B: (-8, 0)
+13:42 fiesta INFO    : Surrogate afgpy_gaussian_CVAE is loading with the following filters: ['radio-6GHz', 'besselli', 'bessellv', 'uvot::b', 'X-ray-5keV'].
+13:42 fiesta INFO    : Loaded for surrogate afgpy_gaussian_CVAE from /work/koehn1/fiesta/fiesta/surrogates/GRB/afgpy_gaussian_CVAE/model.
+13:42 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:42 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:42 fiesta INFO    : Converting error budget to dictionary.
+13:42 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:42 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:42 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:42 fiesta INFO    : Using MALA as local sampler.
+13:42 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:42 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [01:15<07:32, 75.50s/it]Tuning global sampler:  29%|██▊       | 2/7 [01:18<02:44, 32.86s/it]Tuning global sampler:  43%|████▎     | 3/7 [01:21<01:16, 19.06s/it]Tuning global sampler:  57%|█████▋    | 4/7 [01:23<00:37, 12.58s/it]Tuning global sampler:  71%|███████▏  | 5/7 [01:26<00:17,  9.00s/it]Tuning global sampler:  86%|████████▌ | 6/7 [01:29<00:06,  6.84s/it]Tuning global sampler: 100%|██████████| 7/7 [01:31<00:00,  5.48s/it]Tuning global sampler: 100%|██████████| 7/7 [01:31<00:00, 13.11s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.54s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+13:44 fiesta INFO    : Sampling finished.
+13:44 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:44 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:44 fiesta INFO    : Converting error budget to dictionary.
+13:44 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:44 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:44 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:44 fiesta INFO    : Using MALA as local sampler.
+13:44 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:44 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:23, 33.96s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:16, 15.38s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.44s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:41<00:19,  6.65s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:43<00:10,  5.11s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.18s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.75s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.96s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:45 fiesta INFO    : Sampling finished.
+13:45 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:45 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:45 fiesta INFO    : Converting error budget to dictionary.
+13:45 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:45 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:45 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:45 fiesta INFO    : Using MALA as local sampler.
+13:45 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:45 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:27, 34.59s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:18, 15.64s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.58s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:41<00:20,  6.74s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.17s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.22s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.61s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.98s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:46 fiesta INFO    : Sampling finished.
+13:46 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:46 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:46 fiesta INFO    : Converting error budget to dictionary.
+13:46 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:46 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:46 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:46 fiesta INFO    : Using MALA as local sampler.
+13:46 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:46 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:32<03:16, 32.70s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:35<01:14, 14.86s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:36,  9.16s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.48s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:10,  5.24s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.26s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  3.64s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  6.80s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+13:47 fiesta INFO    : Sampling finished.
+13:47 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:47 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:47 fiesta INFO    : Converting error budget to dictionary.
+13:47 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:47 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:47 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:47 fiesta INFO    : Using MALA as local sampler.
+13:47 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:47 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:22, 33.71s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:16, 15.28s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.40s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:19,  6.65s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.38s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.36s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.71s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.97s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:48 fiesta INFO    : Sampling finished.
+13:48 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:48 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:48 fiesta INFO    : Converting error budget to dictionary.
+13:48 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:48 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:48 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:48 fiesta INFO    : Using MALA as local sampler.
+13:48 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:48 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:31<03:06, 31.16s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:33<01:11, 14.23s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:35<00:35,  8.82s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:38<00:18,  6.27s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:40<00:09,  4.87s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.02s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.48s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.49s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+13:49 fiesta INFO    : Sampling finished.
+13:49 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:49 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:49 fiesta INFO    : Converting error budget to dictionary.
+13:49 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:49 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:49 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:49 fiesta INFO    : Using MALA as local sampler.
+13:49 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:49 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:32<03:12, 32.03s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:12, 14.58s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:36,  9.01s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.39s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:09,  4.94s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.07s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.52s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.61s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:50 fiesta INFO    : Sampling finished.
+13:50 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:50 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:50 fiesta INFO    : Converting error budget to dictionary.
+13:50 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:50 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:50 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:50 fiesta INFO    : Using MALA as local sampler.
+13:50 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:50 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:32<03:14, 32.36s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:13, 14.72s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:36,  9.08s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.44s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:09,  4.97s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:44<00:04,  4.09s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  3.84s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  6.80s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:51 fiesta INFO    : Sampling finished.
+13:51 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:51 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:51 fiesta INFO    : Converting error budget to dictionary.
+13:51 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:51 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:51 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:51 fiesta INFO    : Using MALA as local sampler.
+13:51 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:51 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:32<03:14, 32.42s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:13, 14.75s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:36,  9.10s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.45s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:09,  4.98s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:44<00:04,  4.10s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.54s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.67s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.57s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:52 fiesta INFO    : Sampling finished.
+13:52 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:52 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:52 fiesta INFO    : Converting error budget to dictionary.
+13:52 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:52 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:52 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:52 fiesta INFO    : Using MALA as local sampler.
+13:52 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:52 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:20, 33.39s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:35<01:15, 15.15s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.33s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:19,  6.58s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:10,  5.06s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.15s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  3.57s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  6.81s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:53 fiesta INFO    : Sampling finished.
+13:53 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:53 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:53 fiesta INFO    : Converting error budget to dictionary.
+13:53 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:53 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:53 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:53 fiesta INFO    : Using MALA as local sampler.
+13:53 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:53 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:32<03:14, 32.50s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:13, 14.78s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:36,  9.12s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.45s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:09,  4.98s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:44<00:04,  4.10s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.53s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.68s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:54 fiesta INFO    : Sampling finished.
+13:54 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:54 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:54 fiesta INFO    : Converting error budget to dictionary.
+13:54 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:54 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:54 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:54 fiesta INFO    : Using MALA as local sampler.
+13:54 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:54 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:31<03:10, 31.75s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:12, 14.46s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:35,  8.94s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:38<00:19,  6.34s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:09,  4.91s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.04s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.50s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.56s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+13:55 fiesta INFO    : Sampling finished.
+13:55 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:55 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:55 fiesta INFO    : Converting error budget to dictionary.
+13:55 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:55 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:55 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:55 fiesta INFO    : Using MALA as local sampler.
+13:55 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:55 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:18, 33.05s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:35<01:14, 15.00s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:36,  9.23s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:19,  6.52s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:10,  5.03s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.58s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.86s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.95s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+13:56 fiesta INFO    : Sampling finished.
+13:56 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:56 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:56 fiesta INFO    : Converting error budget to dictionary.
+13:56 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:56 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:56 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:56 fiesta INFO    : Using MALA as local sampler.
+13:56 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:56 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:57, 29.66s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:08, 13.61s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:33,  8.47s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:18,  6.06s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:40<00:10,  5.32s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.33s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.70s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.51s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:57 fiesta INFO    : Sampling finished.
+13:57 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:57 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:57 fiesta INFO    : Converting error budget to dictionary.
+13:57 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:57 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:57 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:57 fiesta INFO    : Using MALA as local sampler.
+13:57 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:57 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:30<03:01, 30.20s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:09, 13.83s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:34,  8.61s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:37<00:18,  6.15s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.79s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:42<00:03,  3.96s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  3.44s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  6.35s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:58 fiesta INFO    : Sampling finished.
+13:58 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:58 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:58 fiesta INFO    : Converting error budget to dictionary.
+13:58 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:58 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:58 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:58 fiesta INFO    : Using MALA as local sampler.
+13:58 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:58 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:32<03:16, 32.70s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:35<01:14, 14.86s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:36,  9.16s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.48s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:09,  5.00s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:44<00:04,  4.11s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.54s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.71s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+13:59 fiesta INFO    : Sampling finished.
+13:59 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:59 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:59 fiesta INFO    : Converting error budget to dictionary.
+13:59 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:59 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:59 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+13:59 fiesta INFO    : Using MALA as local sampler.
+13:59 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:59 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:21, 33.62s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:35<01:16, 15.24s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.36s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:19,  6.61s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:43<00:10,  5.08s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.16s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  3.57s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  6.84s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:00 fiesta INFO    : Sampling finished.
+14:01 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:01 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:01 fiesta INFO    : Converting error budget to dictionary.
+14:01 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:01 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:01 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:01 fiesta INFO    : Using MALA as local sampler.
+14:01 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:01 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:19, 33.17s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:35<01:15, 15.05s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:37,  9.26s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:19,  6.54s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:10,  5.04s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.13s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  3.55s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  6.77s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:01 fiesta INFO    : Sampling finished.
+14:02 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:02 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:02 fiesta INFO    : Converting error budget to dictionary.
+14:02 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:02 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:02 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:02 fiesta INFO    : Using MALA as local sampler.
+14:02 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:02 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:32<03:14, 32.37s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:13, 14.72s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:36,  9.09s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.43s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:09,  4.97s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:44<00:04,  4.08s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.52s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.66s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:03 fiesta INFO    : Sampling finished.
+14:03 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:03 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:03 fiesta INFO    : Converting error budget to dictionary.
+14:03 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:03 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:03 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:03 fiesta INFO    : Using MALA as local sampler.
+14:03 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:03 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:58, 29.82s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:14, 14.89s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:36,  9.19s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.51s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:10,  5.03s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.14s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.57s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.61s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:04 fiesta INFO    : Sampling finished.
+14:04 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:04 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:04 fiesta INFO    : Converting error budget to dictionary.
+14:04 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:04 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:04 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:04 fiesta INFO    : Using MALA as local sampler.
+14:04 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:04 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:30<03:05, 30.97s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:33<01:10, 14.15s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:35<00:35,  8.77s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:38<00:18,  6.25s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:40<00:09,  4.85s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:42<00:04,  4.01s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.47s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.46s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:05 fiesta INFO    : Sampling finished.
+14:05 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:05 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:05 fiesta INFO    : Converting error budget to dictionary.
+14:05 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:05 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:05 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:05 fiesta INFO    : Using MALA as local sampler.
+14:05 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:05 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:20, 33.49s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:35<01:15, 15.19s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.33s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:19,  6.59s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:10,  5.07s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.15s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  3.57s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  6.82s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:06 fiesta INFO    : Sampling finished.
+14:06 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:06 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:06 fiesta INFO    : Converting error budget to dictionary.
+14:06 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:06 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:06 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:06 fiesta INFO    : Using MALA as local sampler.
+14:06 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:06 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:32<03:13, 32.30s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:13, 14.70s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:36,  9.08s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.44s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:09,  4.98s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:44<00:04,  4.10s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.54s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.66s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:07 fiesta INFO    : Sampling finished.
+14:07 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:07 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:07 fiesta INFO    : Converting error budget to dictionary.
+14:07 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:07 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:07 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:07 fiesta INFO    : Using MALA as local sampler.
+14:07 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:07 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:30<03:01, 30.19s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:09, 13.83s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:34,  8.60s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:37<00:18,  6.14s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.78s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:42<00:03,  3.96s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  3.45s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  6.35s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:08 fiesta INFO    : Sampling finished.
+14:08 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:08 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:08 fiesta INFO    : Converting error budget to dictionary.
+14:08 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:08 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:08 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:08 fiesta INFO    : Using MALA as local sampler.
+14:08 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:08 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:29, 34.97s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:37<01:18, 15.80s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.67s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:42<00:20,  6.79s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.20s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.24s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  3.63s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  7.03s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:09 fiesta INFO    : Sampling finished.
+14:09 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:09 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:09 fiesta INFO    : Converting error budget to dictionary.
+14:09 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:09 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:09 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:09 fiesta INFO    : Using MALA as local sampler.
+14:09 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:09 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:28<02:52, 28.82s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:33<01:13, 14.77s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:36,  9.12s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:38<00:19,  6.47s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:40<00:10,  5.00s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.12s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.56s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.54s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:10 fiesta INFO    : Sampling finished.
+14:10 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:10 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:10 fiesta INFO    : Converting error budget to dictionary.
+14:10 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:10 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:10 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:10 fiesta INFO    : Using MALA as local sampler.
+14:10 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:10 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:32<03:14, 32.49s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:13, 14.78s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:36,  9.12s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.46s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:09,  4.99s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:44<00:04,  4.10s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.54s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.68s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:11 fiesta INFO    : Sampling finished.
+14:11 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:11 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:11 fiesta INFO    : Converting error budget to dictionary.
+14:11 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:11 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:11 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:11 fiesta INFO    : Using MALA as local sampler.
+14:11 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:11 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:35<03:30, 35.01s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:37<01:19, 15.81s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.68s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:42<00:20,  6.80s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.21s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.25s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  3.64s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  7.04s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:11 fiesta INFO    : Sampling finished.
+14:11 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:11 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:11 fiesta INFO    : Converting error budget to dictionary.
+14:11 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:11 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:11 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:11 fiesta INFO    : Using MALA as local sampler.
+14:11 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:11 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:55, 29.27s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:31<01:07, 13.45s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:33,  8.40s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:18,  6.02s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:38<00:09,  4.70s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:41<00:03,  3.91s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  3.41s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  6.22s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:12 fiesta INFO    : Sampling finished.
+14:12 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:12 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:12 fiesta INFO    : Converting error budget to dictionary.
+14:12 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:12 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:12 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:12 fiesta INFO    : Using MALA as local sampler.
+14:12 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:12 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:20, 33.45s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:35<01:15, 15.17s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.33s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:19,  6.58s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:10,  5.06s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.15s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  3.57s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  6.81s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:13 fiesta INFO    : Sampling finished.
+14:13 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:13 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:13 fiesta INFO    : Converting error budget to dictionary.
+14:13 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:13 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:13 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:13 fiesta INFO    : Using MALA as local sampler.
+14:13 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:13 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:55, 29.26s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:31<01:07, 13.44s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:33,  8.39s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:18,  6.01s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:38<00:09,  4.70s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:41<00:03,  3.91s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  4.30s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.60s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:14 fiesta INFO    : Sampling finished.
+14:14 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:14 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:14 fiesta INFO    : Converting error budget to dictionary.
+14:14 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:14 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:14 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:14 fiesta INFO    : Using MALA as local sampler.
+14:14 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:14 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:31<03:08, 31.34s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:33<01:11, 14.30s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:35,  8.85s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:38<00:18,  6.29s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:40<00:09,  4.88s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.02s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.48s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.51s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:15 fiesta INFO    : Sampling finished.
+14:15 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:15 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:15 fiesta INFO    : Converting error budget to dictionary.
+14:15 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:15 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:15 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:15 fiesta INFO    : Using MALA as local sampler.
+14:15 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:15 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:32<03:14, 32.47s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:13, 14.78s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:37<00:36,  9.12s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.46s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:09,  5.00s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:44<00:04,  4.11s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.55s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.69s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:16 fiesta INFO    : Sampling finished.
+14:16 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:16 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:16 fiesta INFO    : Converting error budget to dictionary.
+14:16 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:16 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:16 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:16 fiesta INFO    : Using MALA as local sampler.
+14:16 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:16 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:31<03:11, 31.96s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:12, 14.55s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:35,  8.99s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.37s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:09,  4.93s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.06s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.50s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.59s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:17 fiesta INFO    : Sampling finished.
+14:17 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:17 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:17 fiesta INFO    : Converting error budget to dictionary.
+14:17 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:17 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:17 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:17 fiesta INFO    : Using MALA as local sampler.
+14:17 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:17 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:29, 34.90s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:37<01:18, 15.77s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.65s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:42<00:20,  6.78s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.19s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.23s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  3.62s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  7.02s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:18 fiesta INFO    : Sampling finished.
+14:18 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:18 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:18 fiesta INFO    : Converting error budget to dictionary.
+14:18 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:18 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:18 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:18 fiesta INFO    : Using MALA as local sampler.
+14:18 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:18 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:30<03:02, 30.46s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:09, 13.94s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:35<00:34,  8.65s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:37<00:18,  6.17s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.80s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:42<00:03,  3.97s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  3.45s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  6.38s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:19 fiesta INFO    : Sampling finished.
+14:19 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:19 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:19 fiesta INFO    : Converting error budget to dictionary.
+14:19 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:19 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:19 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:19 fiesta INFO    : Using MALA as local sampler.
+14:19 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:19 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:23, 33.85s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:16, 15.34s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.42s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:19,  6.64s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:43<00:10,  5.10s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.17s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.58s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.87s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:20 fiesta INFO    : Sampling finished.
+14:20 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:20 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:20 fiesta INFO    : Converting error budget to dictionary.
+14:20 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:20 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:20 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:20 fiesta INFO    : Using MALA as local sampler.
+14:20 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:20 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:30<03:01, 30.32s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:09, 13.88s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:35<00:34,  8.62s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:37<00:18,  6.16s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.79s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:42<00:03,  3.97s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  3.45s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  6.36s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:21 fiesta INFO    : Sampling finished.
+14:21 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:21 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:21 fiesta INFO    : Converting error budget to dictionary.
+14:21 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:21 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:21 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:21 fiesta INFO    : Using MALA as local sampler.
+14:21 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:21 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:24, 34.12s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:17, 15.45s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.49s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:41<00:20,  6.68s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:43<00:10,  5.13s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.19s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.60s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.92s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:22 fiesta INFO    : Sampling finished.
+14:22 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:22 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:22 fiesta INFO    : Converting error budget to dictionary.
+14:22 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:22 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:22 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:22 fiesta INFO    : Using MALA as local sampler.
+14:22 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:22 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:56, 29.34s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:31<01:07, 13.47s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:33,  8.40s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:21,  7.18s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:10,  5.45s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:44<00:04,  4.41s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.75s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.65s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:23 fiesta INFO    : Sampling finished.
+14:23 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:23 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:23 fiesta INFO    : Converting error budget to dictionary.
+14:23 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:23 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:23 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:23 fiesta INFO    : Using MALA as local sampler.
+14:23 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:23 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:30<03:04, 30.80s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:33<01:10, 14.08s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:35<00:34,  8.73s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:37<00:18,  6.22s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:40<00:09,  4.83s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:42<00:03,  3.99s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.46s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.43s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:24 fiesta INFO    : Sampling finished.
+14:24 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:24 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:24 fiesta INFO    : Converting error budget to dictionary.
+14:24 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:24 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:24 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:24 fiesta INFO    : Using MALA as local sampler.
+14:24 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:24 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:19, 33.26s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:35<01:15, 15.10s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.29s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:19,  6.57s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:10,  5.06s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.15s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  3.57s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  6.80s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:25 fiesta INFO    : Sampling finished.
+14:25 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:25 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:25 fiesta INFO    : Converting error budget to dictionary.
+14:25 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:25 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:25 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:25 fiesta INFO    : Using MALA as local sampler.
+14:25 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:25 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:30<03:01, 30.22s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:09, 13.84s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:34,  8.60s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:37<00:18,  6.14s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.78s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:42<00:03,  3.96s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  3.44s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  6.35s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:26 fiesta INFO    : Sampling finished.
+14:26 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:26 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:26 fiesta INFO    : Converting error budget to dictionary.
+14:26 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:26 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:26 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:26 fiesta INFO    : Using MALA as local sampler.
+14:26 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:26 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:26, 34.39s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:17, 15.56s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.54s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:41<00:20,  6.72s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:43<00:10,  5.15s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.21s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.61s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.95s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:27 fiesta INFO    : Sampling finished.
+14:27 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:27 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:27 fiesta INFO    : Converting error budget to dictionary.
+14:27 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:27 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:27 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:27 fiesta INFO    : Using MALA as local sampler.
+14:27 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:27 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:31<03:11, 31.85s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:12, 14.52s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:35,  8.98s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:39<00:19,  6.38s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:09,  4.94s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.08s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.53s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.60s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:28 fiesta INFO    : Sampling finished.
+14:28 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:28 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:28 fiesta INFO    : Converting error budget to dictionary.
+14:28 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:28 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:28 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:28 fiesta INFO    : Using MALA as local sampler.
+14:28 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:28 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:36<03:40, 36.81s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:39<01:22, 16.56s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:41<00:40, 10.08s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:43<00:21,  7.04s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:46<00:10,  5.37s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:48<00:04,  4.35s/it]Tuning global sampler: 100%|██████████| 7/7 [00:51<00:00,  3.71s/it]Tuning global sampler: 100%|██████████| 7/7 [00:51<00:00,  7.30s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:29 fiesta INFO    : Sampling finished.
+14:29 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:29 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:29 fiesta INFO    : Converting error budget to dictionary.
+14:29 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:29 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:29 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:29 fiesta INFO    : Using MALA as local sampler.
+14:29 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:29 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:58, 29.79s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:08, 13.66s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:34,  8.50s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:18,  6.08s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.74s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:41<00:03,  3.94s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  3.42s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  6.29s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:30 fiesta INFO    : Sampling finished.
+14:30 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:30 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:30 fiesta INFO    : Converting error budget to dictionary.
+14:30 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:30 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:30 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:30 fiesta INFO    : Using MALA as local sampler.
+14:30 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:30 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:24, 34.09s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:17, 15.44s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.47s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:41<00:20,  6.67s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:43<00:10,  5.13s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.19s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.60s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.91s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:31 fiesta INFO    : Sampling finished.
+14:31 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:31 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:31 fiesta INFO    : Converting error budget to dictionary.
+14:31 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:31 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:31 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:31 fiesta INFO    : Using MALA as local sampler.
+14:31 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:31 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:58, 29.76s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:08, 13.65s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:34,  8.50s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:18,  6.08s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.74s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:41<00:03,  3.94s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  3.43s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  6.29s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:32 fiesta INFO    : Sampling finished.
+14:32 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:32 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:32 fiesta INFO    : Converting error budget to dictionary.
+14:32 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:32 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:32 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:32 fiesta INFO    : Using MALA as local sampler.
+14:32 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:32 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:27, 34.58s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:18, 15.63s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.58s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:41<00:20,  6.73s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.16s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.21s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.61s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.97s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:33 fiesta INFO    : Sampling finished.
+14:33 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:33 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:33 fiesta INFO    : Converting error budget to dictionary.
+14:33 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:33 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:33 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:33 fiesta INFO    : Using MALA as local sampler.
+14:33 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:33 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:28<02:51, 28.66s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:31<01:05, 13.20s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:38,  9.68s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:38<00:20,  6.81s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:10,  5.22s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.26s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  3.65s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.59s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:34 fiesta INFO    : Sampling finished.
+14:34 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:34 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:34 fiesta INFO    : Converting error budget to dictionary.
+14:34 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:34 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:34 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:34 fiesta INFO    : Using MALA as local sampler.
+14:34 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:34 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:31<03:10, 31.72s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:12, 14.46s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:35,  8.94s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:38<00:19,  6.35s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:09,  4.91s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.05s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.50s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.57s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:35 fiesta INFO    : Sampling finished.
+14:35 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:35 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:35 fiesta INFO    : Converting error budget to dictionary.
+14:35 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:35 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:35 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:35 fiesta INFO    : Using MALA as local sampler.
+14:35 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:35 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:33<03:22, 33.71s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:16, 15.29s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.40s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:19,  6.63s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:43<00:10,  5.10s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.18s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.59s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.86s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:36 fiesta INFO    : Sampling finished.
+14:36 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:36 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:36 fiesta INFO    : Converting error budget to dictionary.
+14:36 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:36 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:36 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:36 fiesta INFO    : Using MALA as local sampler.
+14:36 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:36 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:31<03:09, 31.50s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:33<01:11, 14.37s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:35,  8.89s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:38<00:18,  6.32s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:40<00:09,  4.89s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.04s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.49s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.53s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:37 fiesta INFO    : Sampling finished.
+14:37 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:37 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:37 fiesta INFO    : Converting error budget to dictionary.
+14:37 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:37 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:37 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:37 fiesta INFO    : Using MALA as local sampler.
+14:37 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:37 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:24, 34.00s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:17, 15.41s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:38<00:37,  9.46s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:41<00:20,  6.67s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:43<00:10,  5.13s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.20s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.61s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.91s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:38 fiesta INFO    : Sampling finished.
+14:38 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:38 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:38 fiesta INFO    : Converting error budget to dictionary.
+14:38 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:38 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:38 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:38 fiesta INFO    : Using MALA as local sampler.
+14:38 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:38 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:30<03:03, 30.60s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:09, 13.99s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:35<00:34,  8.68s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:37<00:18,  6.19s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:40<00:09,  4.81s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:42<00:03,  3.98s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  3.45s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  6.40s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:39 fiesta INFO    : Sampling finished.
+14:39 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:39 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:39 fiesta INFO    : Converting error budget to dictionary.
+14:39 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:39 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:39 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:39 fiesta INFO    : Using MALA as local sampler.
+14:39 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:39 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:28, 34.76s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:37<01:18, 15.72s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.63s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:41<00:20,  6.77s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.19s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.24s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  3.64s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  7.01s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.57s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.57s/it]
+14:40 fiesta INFO    : Sampling finished.
+14:40 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:40 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:40 fiesta INFO    : Converting error budget to dictionary.
+14:40 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:40 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:40 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:40 fiesta INFO    : Using MALA as local sampler.
+14:40 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:40 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:30<03:05, 30.89s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:33<01:10, 14.12s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:35<00:35,  8.76s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:38<00:18,  6.25s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:40<00:09,  4.85s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:42<00:04,  4.01s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.48s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.46s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:41 fiesta INFO    : Sampling finished.
+14:41 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:41 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:41 fiesta INFO    : Converting error budget to dictionary.
+14:41 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:41 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:41 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:41 fiesta INFO    : Using MALA as local sampler.
+14:41 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:41 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:36<03:40, 36.68s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:39<01:22, 16.51s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:41<00:40, 10.07s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:43<00:21,  7.03s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:46<00:10,  5.37s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:48<00:04,  4.36s/it]Tuning global sampler: 100%|██████████| 7/7 [00:51<00:00,  3.71s/it]Tuning global sampler: 100%|██████████| 7/7 [00:51<00:00,  7.29s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:42 fiesta INFO    : Sampling finished.
+14:42 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:42 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:42 fiesta INFO    : Converting error budget to dictionary.
+14:42 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:42 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:42 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:42 fiesta INFO    : Using MALA as local sampler.
+14:42 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:42 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:57, 29.53s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:31<01:07, 13.55s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:33,  8.45s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:18,  6.05s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.72s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:41<00:03,  3.92s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  3.41s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  6.25s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:43 fiesta INFO    : Sampling finished.
+14:43 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:43 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:43 fiesta INFO    : Converting error budget to dictionary.
+14:43 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:43 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:43 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:43 fiesta INFO    : Using MALA as local sampler.
+14:43 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:43 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:35<03:30, 35.16s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:37<01:19, 15.88s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.72s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:42<00:20,  6.82s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.22s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:47<00:04,  4.25s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  3.64s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  7.06s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:44 fiesta INFO    : Sampling finished.
+14:44 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:44 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:44 fiesta INFO    : Converting error budget to dictionary.
+14:44 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:44 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:44 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:44 fiesta INFO    : Using MALA as local sampler.
+14:44 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:44 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:57, 29.53s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:31<01:07, 13.55s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:33,  8.45s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:18,  6.05s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.72s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:41<00:03,  3.93s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  3.42s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  6.25s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:45 fiesta INFO    : Sampling finished.
+14:45 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:45 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:45 fiesta INFO    : Converting error budget to dictionary.
+14:45 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:45 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:45 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:45 fiesta INFO    : Using MALA as local sampler.
+14:45 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:45 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:35<03:31, 35.29s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:37<01:19, 15.93s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:40<00:38,  9.74s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:42<00:20,  6.84s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.23s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:47<00:04,  4.26s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  3.65s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  7.08s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:46 fiesta INFO    : Sampling finished.
+14:46 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:46 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:46 fiesta INFO    : Converting error budget to dictionary.
+14:46 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:46 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:46 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:46 fiesta INFO    : Using MALA as local sampler.
+14:46 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:46 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:58, 29.79s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:08, 13.67s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:34,  8.51s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:18,  6.09s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.75s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:41<00:03,  3.95s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  3.43s/it]Tuning global sampler: 100%|██████████| 7/7 [00:44<00:00,  6.30s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:47 fiesta INFO    : Sampling finished.
+14:47 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:47 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:47 fiesta INFO    : Converting error budget to dictionary.
+14:47 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:47 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:47 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:47 fiesta INFO    : Using MALA as local sampler.
+14:47 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:47 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:27, 34.59s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:36<01:18, 15.64s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.59s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:41<00:20,  6.74s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.17s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.22s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  3.62s/it]Tuning global sampler: 100%|██████████| 7/7 [00:48<00:00,  6.98s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.57s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:48 fiesta INFO    : Sampling finished.
+14:48 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:48 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:48 fiesta INFO    : Converting error budget to dictionary.
+14:48 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:48 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:48 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:48 fiesta INFO    : Using MALA as local sampler.
+14:48 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:48 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:54, 29.01s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:31<01:06, 13.34s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:33<00:33,  8.33s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:17,  5.98s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:38<00:09,  4.68s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:40<00:03,  3.89s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  3.40s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  6.18s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:49 fiesta INFO    : Sampling finished.
+14:49 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:49 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:49 fiesta INFO    : Converting error budget to dictionary.
+14:49 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:49 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:49 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:49 fiesta INFO    : Using MALA as local sampler.
+14:49 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:49 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:35<03:32, 35.45s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:37<01:19, 15.99s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:40<00:39,  9.78s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:42<00:20,  6.86s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.24s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:47<00:04,  4.27s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  3.65s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  7.10s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:50 fiesta INFO    : Sampling finished.
+14:50 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:50 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:50 fiesta INFO    : Converting error budget to dictionary.
+14:50 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:50 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:50 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:50 fiesta INFO    : Using MALA as local sampler.
+14:50 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:50 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:57, 29.50s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:31<01:07, 13.54s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:33,  8.44s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:18,  6.05s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:38<00:09,  4.72s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:41<00:03,  3.92s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  3.41s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  6.25s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:51 fiesta INFO    : Sampling finished.
+14:51 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:51 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:51 fiesta INFO    : Converting error budget to dictionary.
+14:51 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:51 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:51 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:51 fiesta INFO    : Using MALA as local sampler.
+14:51 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:51 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:34<03:29, 34.88s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:37<01:18, 15.76s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.65s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:41<00:20,  6.77s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.19s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.23s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  3.62s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  7.01s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:52 fiesta INFO    : Sampling finished.
+14:52 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:52 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:52 fiesta INFO    : Converting error budget to dictionary.
+14:52 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:52 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:52 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:52 fiesta INFO    : Using MALA as local sampler.
+14:52 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:52 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:57, 29.65s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:32<01:08, 13.61s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:33,  8.48s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:36<00:18,  6.07s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:39<00:09,  4.74s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:41<00:03,  3.94s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  3.43s/it]Tuning global sampler: 100%|██████████| 7/7 [00:43<00:00,  6.28s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:53 fiesta INFO    : Sampling finished.
+14:53 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:53 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:53 fiesta INFO    : Converting error budget to dictionary.
+14:53 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:53 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:53 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:53 fiesta INFO    : Using MALA as local sampler.
+14:53 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:53 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:35<03:30, 35.11s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:37<01:19, 15.84s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:39<00:38,  9.69s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:42<00:20,  6.80s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:44<00:10,  5.21s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:46<00:04,  4.24s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  3.63s/it]Tuning global sampler: 100%|██████████| 7/7 [00:49<00:00,  7.05s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:54 fiesta INFO    : Sampling finished.
+14:54 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:54 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:54 fiesta INFO    : Converting error budget to dictionary.
+14:54 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:54 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:54 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:54 fiesta INFO    : Using MALA as local sampler.
+14:54 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:54 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:28<02:50, 28.34s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:30<01:05, 13.07s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:33<00:32,  8.18s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:35<00:17,  5.89s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:37<00:09,  4.62s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:05,  5.04s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  4.18s/it]Tuning global sampler: 100%|██████████| 7/7 [00:46<00:00,  6.58s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:55 fiesta INFO    : Sampling finished.
+14:55 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:55 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:55 fiesta INFO    : Converting error budget to dictionary.
+14:55 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:55 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:55 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:55 fiesta INFO    : Using MALA as local sampler.
+14:55 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:55 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:31<03:09, 31.67s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:34<01:12, 14.44s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:36<00:35,  8.93s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:38<00:19,  6.34s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:41<00:09,  4.91s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:43<00:04,  4.05s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  3.50s/it]Tuning global sampler: 100%|██████████| 7/7 [00:45<00:00,  6.56s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+14:56 fiesta INFO    : Sampling finished.
+14:56 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:56 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:56 fiesta INFO    : Converting error budget to dictionary.
+14:56 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:56 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:56 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:56 fiesta INFO    : Using MALA as local sampler.
+14:56 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:56 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [00:29<02:56, 29.43s/it]Tuning global sampler:  29%|██▊       | 2/7 [00:31<01:07, 13.51s/it]Tuning global sampler:  43%|████▎     | 3/7 [00:34<00:33,  8.42s/it]Tuning global sampler:  57%|█████▋    | 4/7 [00:40<00:22,  7.48s/it]Tuning global sampler:  71%|███████▏  | 5/7 [00:42<00:11,  5.66s/it]Tuning global sampler:  86%|████████▌ | 6/7 [00:45<00:04,  4.56s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  3.86s/it]Tuning global sampler: 100%|██████████| 7/7 [00:47<00:00,  6.78s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:01<00:03,  1.56s/it]Production run:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]Production run: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+14:57 fiesta INFO    : Sampling finished.
+14:57 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+14:57 fiesta INFO    : No detection limit is given. Putting it to infinity.
+14:57 fiesta INFO    : Converting error budget to dictionary.
+14:57 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+14:57 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+14:57 fiesta INFO    : Likelihood is using a collective freely sampled systematic uncertainty as specified in the prior.
+14:57 fiesta INFO    : Using MALA as local sampler.
+14:57 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+14:57 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]

@@ -1,0 +1,29 @@
+#collective:
+#    time_nodes: 4
+#    prior: Uniform
+#    params: 
+#           xmin: 0.3 
+#           xmax: 1.0
+
+group:
+    filters:
+        - "X-ray-5keV"
+        - "radio-6GHz"
+    time_nodes: 4
+    prior: Uniform
+    params:
+           xmin: 0.3
+           xmax: 1.0
+
+remaining:
+    time_nodes: 4
+    prior: Uniform
+    params:
+           xmin: 0.3
+           xmax: 1.0
+
+
+#individual: 
+#    time_nodes: 4
+#    prior: "Uniform(xmin=0.3, xmax=2.)"
+

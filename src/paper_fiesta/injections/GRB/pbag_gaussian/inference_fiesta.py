@@ -26,8 +26,7 @@ FILTERS = data.keys()
 # MODEL #
 #########
 
-model = AfterglowFlux(name="gaussian",
-                      directory="../../../surrogates/pbag_gaussian_CVAE/",
+model = AfterglowFlux(name="pbag_gaussian",
                       filters = FILTERS)
 
 
@@ -46,6 +45,7 @@ log10_epsilon_e = Uniform(xmin=-4.0, xmax=0.0, naming=['log10_epsilon_e'])
 log10_epsilon_B = Uniform(xmin=-8.0, xmax=0.0, naming=['log10_epsilon_B'])
 epsilon_tot = Constraint(xmin = 0., xmax = 1., naming=["epsilon_tot"])
 Gamma0 = Uniform(xmin=100., xmax=1000., naming=["Gamma0"])
+sys_err = Uniform(xmin=0.3, xmax=1.0, naming=["sys_err"])
 
 def conversion_function(sample):
     converted_sample = sample
@@ -63,7 +63,8 @@ prior_list = [inclination_EM,
               log10_epsilon_B,
               thetaWing,
               epsilon_tot,
-              Gamma0]
+              Gamma0,
+              sys_err]
 
 prior = ConstrainedPrior(prior_list, conversion_function)
 
@@ -77,11 +78,12 @@ detection_limit = None
 likelihood = EMLikelihood(model,
                           data,
                           FILTERS,
-                          tmax = 2000.0,
+                          tmin=1e-2,
+                          tmax = 200.0,
                           trigger_time=trigger_time,
                           detection_limit = detection_limit,
                           fixed_params={"luminosity_distance": 40.0, "redshift": 0.0},
-                          error_budget=0.)
+                          )
 
 
 
@@ -90,7 +92,7 @@ eps = 5e-3
 local_sampler_arg = {"step_size": mass_matrix * eps}
 
 # Save for postprocessing
-outdir = f"./fiesta_no_sys_uncertainty/"
+outdir = f"./outdir_fiesta/"
 if not os.path.exists(outdir):
     os.makedirs(outdir)
 
@@ -107,6 +109,8 @@ fiesta = Fiesta(likelihood,
                 local_sampler_arg=local_sampler_arg,
                 outdir = outdir)
 
-fiesta.sample(jax.random.PRNGKey(42))
+fiesta.sample(jax.random.PRNGKey(92))
 fiesta.print_summary()
-fiesta.save_results(outdir)
+fiesta.save_results()
+fiesta.plot_lightcurves()
+fiesta.plot_corner()

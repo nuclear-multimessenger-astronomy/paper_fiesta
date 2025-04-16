@@ -1,0 +1,690 @@
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:23 bilby INFO    : Analysis priors:
+12:23 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+12:23 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+12:23 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+12:23 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+12:23 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+12:23 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+12:23 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+12:23 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+12:23 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+12:23 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+12:23 bilby INFO    : luminosity_distance=40.0
+12:23 bilby INFO    : redshift=0.0
+12:23 bilby INFO    : timeshift=0.0
+12:23 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+12:23 bilby INFO    : Analysis likelihood noise evidence: 0.0
+12:25 bilby INFO    : Single likelihood evaluation took 1.558e+00 s
+12:25 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:25 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f6e48a57d90>>}
+12:25 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:25 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:25 bilby INFO    : Single likelihood evaluation took 1.567e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fad1c102710>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.659e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f8870e0be10>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.675e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f19202ec2d0>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.695e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 1.687e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f89a0688ed0>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f4d84117e10>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.734e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7ff8946d3a90>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.765e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 1.758e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 1.778e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 1.768e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fcf04427750>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f4e2646b2d0>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f0244311dd0>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.810e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 1.803e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f82c01c42d0>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.792e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f3ab411ce10>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.816e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 1.815e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f1ebccbce10>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f5956800450>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.816e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7ff3e24fc510>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f37cf7782d0>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f68aeb48b90>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.851e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7ffb534bd390>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.848e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 1.851e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 1.868e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 1.877e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f3d66eb6750>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fe96b7dc4d0>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7ff86804aa90>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7ff012e70890>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 1.934e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f660b2844d0>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 2.003e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 2.008e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 1.991e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f57cc154f90>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 2.030e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f6231360f10>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 2.023e+00 s
+12:26 bilby INFO    : Single likelihood evaluation took 2.035e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f7b00bc4e90>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fb19d3ecd50>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7faf45b90f10>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f95d3a03150>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+12:26 bilby INFO    : Single likelihood evaluation took 2.089e+00 s
+12:26 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+12:26 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f8cc82fc450>>}
+12:26 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+12:26 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/

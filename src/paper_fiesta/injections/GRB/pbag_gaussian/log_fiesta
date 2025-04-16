@@ -1,0 +1,55 @@
+INFO: deactivate-binutils_linux-64.sh made the following environmental changes:
++HOST=x86_64-conda-linux-gnu
+-ADDR2LINE=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-addr2line
+-AR=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ar
+-AS=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-as
+-CXXFILT=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-c++filt
+-ELFEDIT=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-elfedit
+-GPROF=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-gprof
+-HOST=x86_64-conda_cos6-linux-gnu
+-LD=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ld
+-LD_GOLD=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ld.gold
+-NM=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-nm
+-OBJCOPY=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-objcopy
+-OBJDUMP=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-objdump
+-RANLIB=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ranlib
+-READELF=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-readelf
+-SIZE=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-size
+-STRINGS=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-strings
+-STRIP=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-strip
+No autotune found, use input sampler_params
+Training normalizing flow
+Compiling MALA body
+Starting Production run
+Training summary
+==========
+inclination_EM: 0.227 +/- 0.166
+log10_E0: 50.385 +/- 1.078
+thetaCore: 0.134 +/- 0.138
+alphaWing: 1.615 +/- 0.659
+log10_n0: 0.198 +/- 1.303
+p: 2.555 +/- 0.140
+log10_epsilon_e: -2.054 +/- 0.628
+log10_epsilon_B: -2.763 +/- 1.350
+Gamma0: 573.195 +/- 257.324
+sys_err: 0.677 +/- 0.220
+Log probability: -2325.184 +/- 23362.643
+Local acceptance: 0.137 +/- 0.344
+Global acceptance: 0.033 +/- 0.180
+Max loss: 14.004, Min loss: 5.524
+Production summary
+==========
+inclination_EM: 0.185 +/- 0.012
+log10_E0: 50.709 +/- 0.180
+thetaCore: 0.060 +/- 0.015
+alphaWing: 1.502 +/- 0.310
+log10_n0: 0.754 +/- 0.252
+p: 2.547 +/- 0.029
+log10_epsilon_e: -2.309 +/- 0.088
+log10_epsilon_B: -2.642 +/- 0.384
+Gamma0: 545.551 +/- 269.216
+sys_err: 0.383 +/- 0.016
+Log probability: -29.448 +/- 2.443
+Local acceptance: 0.002 +/- 0.048
+Global acceptance: 0.017 +/- 0.129
+==========

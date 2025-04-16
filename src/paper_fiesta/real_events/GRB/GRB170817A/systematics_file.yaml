@@ -1,0 +1,27 @@
+radio:
+    time_nodes: 4
+    prior: Uniform
+    params:
+        xmin: 0.3
+        xmax: 1.0
+    filters:
+        - "radio-3GHz"
+        - "radio-6GHz"
+
+optical:
+    time_nodes: 4
+    prior: Uniform
+    params:
+        xmin: 0.3
+        xmax: 1.0
+    filters:
+        - "bessellv"
+
+X-ray:
+    time_nodes: 4
+    prior: Uniform
+    params:
+        xmin: 0.3
+        xmax: 1.0
+    filters:
+        - "X-ray-1keV"
