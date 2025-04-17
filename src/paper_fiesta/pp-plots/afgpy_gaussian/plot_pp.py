@@ -30,14 +30,14 @@ parameter_names = ["$\\iota$", "$\\log_{10}(E_0)$", "$\\theta_{\\mathrm{c}}$", "
 
 fig, ax = plt.subplots(1, 1, figsize = (8, 5))
 fig.subplots_adjust(hspace = 0.4, wspace = 0.1, top = 0.98, bottom = 0.1, left = 0.08, right = 0.98)
-p_array = np.linspace(0, 1, 100)
+p_array = np.linspace(0, 1, 50)
 pp_plot(ax, quantiles.flatten(), p_array)
 fig.savefig("./outdir/pp_plot_total.pdf", dpi = 250)
 
 
 fig, ax = plt.subplots(8, 1, figsize = (8, 32))
 fig.subplots_adjust(hspace = 0.4, wspace = 0.1, top = 0.98, bottom = 0.05, left = 0.08, right = 0.98)
-p_array = np.linspace(0, 1, 20)
+p_array = np.linspace(0, 1, 50)
 for j, cax in enumerate(ax):
     pp_plot(cax, quantiles[:, j], p_array)
     cax.text(0.1, 0.8, parameter_names[j])
