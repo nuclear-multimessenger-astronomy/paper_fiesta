@@ -125,9 +125,7 @@ for j in [10, 20, 40, 80]:
 
         compile_time = timeit.timeit('setup_fiesta()', globals=globals(), number=1)
         total_time = timeit.timeit("sample()", globals=globals(), number=1)
-        with open("./outdir/RTX_6000_timing.txt", "a+") as f:
+        with open("./outdir/H100_timing.txt", "a+") as f:
             f.write(f"{j} {total_time:.6e} {compile_time:.6e} \n")
         #timing.append([j, sampling_time, compile_time])
-
-#np.savetxt("./outdir/RTX_6000_timing.txt", np.array(timing))
 
