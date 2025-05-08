@@ -2,6 +2,9 @@ import os
 import types
 
 import numpy as np
+from mpi4py import MPI
+comm = MPI.COMM_WORLD
+rank = comm.Get_rank()
 
 import bilby
 from bilby.gw.prior import Uniform, Constraint, PriorDict
@@ -82,6 +85,8 @@ prior_dict = dict(inclination_EM = inclination_EM,
 
 priors = PriorDict(dictionary = prior_dict, conversion_function = lambda x: conversion_function(x)[0])
 
+
+
 likelihood_kwargs = dict(
     light_curve_model=model,
     light_curve_data=data,
@@ -102,6 +107,12 @@ sampler_kwargs = {}
 outdir = f"./outdir_nmma_x_fiesta"
 if not os.path.exists(outdir):
     os.makedirs(outdir)
+
+
+sample = priors.sample()
+bol, mag = model.generate_lightcurve(np.arange(1e-2, 200, 0.1), sample)
+exit()
+
 
 result = bilby.run_sampler(
     likelihood,
