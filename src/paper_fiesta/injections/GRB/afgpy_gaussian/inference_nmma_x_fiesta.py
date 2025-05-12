@@ -1,10 +1,8 @@
 import os
 import types
+from ast import literal_eval
 
 import numpy as np
-from mpi4py import MPI
-comm = MPI.COMM_WORLD
-rank = comm.Get_rank()
 
 import bilby
 from bilby.gw.prior import Uniform, Constraint, PriorDict
@@ -12,6 +10,7 @@ from bilby.gw.prior import Uniform, Constraint, PriorDict
 from nmma.em.io import loadEvent
 from nmma.em.model import GRBLightCurveModel
 from nmma.em.em_likelihood import EMTransientLikelihood
+from nmma.joint.conversion import distance_modulus_nmma
 
 from fiesta.inference.lightcurve_model import AfterglowFlux
 
@@ -22,7 +21,6 @@ from fiesta.inference.lightcurve_model import AfterglowFlux
 data = loadEvent("./data/injection_afterglowpy_gaussian.dat")
 trigger_time = 58849
 FILTERS = list(data.keys())
-FILTERS = [filt.replace("__", "::") for filt in FILTERS]
 
 #########
 # MODEL #
@@ -40,10 +38,13 @@ model = AfterglowFlux(name="afgpy_gaussian_CVAE",
 def generate_lightcurve(self, sample_times, parameters):
     t, mag = self.predict(parameters)
     
+    d_lum = parameters.get("luminosity_distance", 1e-5) ## default 10pc = 1e-5 Mpc
+    distance_modulus = distance_modulus_nmma(d_lum)
+    
     for key in mag.keys():
-        mag[key] = np.interp(sample_times, t, mag[key])
+        mag[key] = np.interp(sample_times, t, mag[key] - distance_modulus)
 
-    return np.zeros(len(sample_times)), mag
+    return np.ones(len(sample_times)), mag
 
 model.generate_lightcurve = types.MethodType(generate_lightcurve, model)
 
@@ -61,7 +62,7 @@ log10_epsilon_e = Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e')
 log10_epsilon_B = Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B')
 thetaWing = Constraint(minimum=0, maximum=np.pi/2, name='thetaWing')
 epsilon_tot = Constraint(minimum=0, maximum=1, name='epsilon_tot')
-sys_err = Uniform(minimum=0.3, maximum=1, name='sys_err')
+em_syserr = Uniform(minimum=0.3, maximum=1, name='em_syserr')
 
 luminosity_distance = 40.0
 redshift = 0.
@@ -80,7 +81,7 @@ prior_dict = dict(inclination_EM = inclination_EM,
               timeshift = timeshift,
               thetaWing = thetaWing,
               epsilon_tot = epsilon_tot,
-              em_syserr = sys_err,
+              em_syserr = em_syserr,
 )
 
 priors = PriorDict(dictionary = prior_dict, conversion_function = lambda x: conversion_function(x)[0])
@@ -92,11 +93,11 @@ likelihood_kwargs = dict(
     light_curve_data=data,
     filters = FILTERS,
     trigger_time = trigger_time,
-    tmin=1e-2,
-    tmax = 200.0,
+    sample_times = np.logspace(-2, np.log10(200), 100),
     priors=priors)
 
 likelihood = EMTransientLikelihood(**likelihood_kwargs)
+
 
 ################
 # LIKELIHOOD & #
@@ -107,12 +108,6 @@ sampler_kwargs = {}
 outdir = f"./outdir_nmma_x_fiesta"
 if not os.path.exists(outdir):
     os.makedirs(outdir)
-
-
-sample = priors.sample()
-bol, mag = model.generate_lightcurve(np.arange(1e-2, 200, 0.1), sample)
-exit()
-
 
 result = bilby.run_sampler(
     likelihood,
