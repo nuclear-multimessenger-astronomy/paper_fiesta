@@ -1,0 +1,1168 @@
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:33 bilby INFO    : Analysis priors:
+16:33 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+16:33 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+16:33 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+16:33 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+16:33 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+16:33 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+16:33 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+16:33 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+16:33 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+16:33 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+16:33 bilby INFO    : luminosity_distance=40.0
+16:33 bilby INFO    : redshift=0.0
+16:33 bilby INFO    : timeshift=0.0
+16:33 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:33 bilby INFO    : Analysis likelihood noise evidence: 0.0
+16:36 bilby INFO    : Single likelihood evaluation took 1.435e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f35800a0110>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.484e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f686ef4df50>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.508e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f67c0bb8150>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.530e+00 s
+16:36 bilby INFO    : Single likelihood evaluation took 1.482e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fcb50b700d0>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f79d32a8210>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.573e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fd527c1c090>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.604e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fd8b29b4fd0>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.605e+00 s
+16:36 bilby INFO    : Single likelihood evaluation took 1.619e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fe0ffe8a450>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.630e+00 s
+16:36 bilby INFO    : Single likelihood evaluation took 1.652e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f3ae23b41d0>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+ *****************************************************
+ MultiNest v3.10
+ Copyright Farhan Feroz & Mike Hobson
+ Release Jul 2015
+
+ no. of live points = 1024
+ dimensionality =    9
+ resuming from previous job
+ *****************************************************
+ Starting MultiNest
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fe1d1fa4450>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.687e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fb74f123210>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f5b0253c290>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.673e+00 s
+16:36 bilby INFO    : Single likelihood evaluation took 1.706e+00 s
+16:36 bilby INFO    : Single likelihood evaluation took 1.699e+00 s
+16:36 bilby INFO    : Single likelihood evaluation took 1.723e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f9b829103d0>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fd845388190>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fad44c681d0>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.726e+00 s
+16:36 bilby INFO    : Single likelihood evaluation took 1.725e+00 s
+16:36 bilby INFO    : Single likelihood evaluation took 1.734e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f29e53c8310>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fe7f1421410>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fbe64f781d0>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f3dc41b0150>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.778e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f67ad804250>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.798e+00 s
+16:36 bilby INFO    : Single likelihood evaluation took 1.802e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f76ad238150>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f084263f390>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.870e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fcf79b10310>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+16:36 bilby INFO    : Single likelihood evaluation took 1.881e+00 s
+16:36 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:36 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f2fb4e703d0>>}
+16:36 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+16:36 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+Acceptance Rate:                        0.185085
+Replacements:                              25474
+Total Samples:                            137634
+Nested Sampling ln(Z):                -10.560865
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.184681
+Replacements:                              25524
+Total Samples:                            138206
+Nested Sampling ln(Z):                -10.541409
+Acceptance Rate:                        0.184195
+Replacements:                              25574
+Total Samples:                            138842
+Nested Sampling ln(Z):                -10.522427
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.183617
+Replacements:                              25624
+Total Samples:                            139551
+Nested Sampling ln(Z):                -10.503913
+Acceptance Rate:                        0.183205
+Replacements:                              25674
+Total Samples:                            140138
+Nested Sampling ln(Z):                -10.485831
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.182730
+Replacements:                              25724
+Total Samples:                            140776
+Nested Sampling ln(Z):                -10.468070
+Acceptance Rate:                        0.182347
+Replacements:                              25774
+Total Samples:                            141346
+Nested Sampling ln(Z):                -10.450760
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.182031
+Replacements:                              25824
+Total Samples:                            141866
+Nested Sampling ln(Z):                -10.433809
+Acceptance Rate:                        0.181610
+Replacements:                              25874
+Total Samples:                            142470
+Nested Sampling ln(Z):                -10.417189
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.180955
+Replacements:                              25924
+Total Samples:                            143262
+Nested Sampling ln(Z):                -10.400834
+Acceptance Rate:                        0.180444
+Replacements:                              25974
+Total Samples:                            143945
+Nested Sampling ln(Z):                -10.384759
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.179951
+Replacements:                              26024
+Total Samples:                            144617
+Nested Sampling ln(Z):                -10.369037
+Acceptance Rate:                        0.179330
+Replacements:                              26074
+Total Samples:                            145397
+Nested Sampling ln(Z):                -10.353698
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.178840
+Replacements:                              26124
+Total Samples:                            146075
+Nested Sampling ln(Z):                -10.338786
+Acceptance Rate:                        0.178425
+Replacements:                              26174
+Total Samples:                            146695
+Nested Sampling ln(Z):                -10.324374
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.177954
+Replacements:                              26224
+Total Samples:                            147364
+Nested Sampling ln(Z):                -10.310422
+Acceptance Rate:                        0.177380
+Replacements:                              26274
+Total Samples:                            148123
+Nested Sampling ln(Z):                -10.296900
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.176956
+Replacements:                              26324
+Total Samples:                            148760
+Nested Sampling ln(Z):                -10.283753
+Acceptance Rate:                        0.176678
+Replacements:                              26374
+Total Samples:                            149277
+Nested Sampling ln(Z):                -10.270956
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.176242
+Replacements:                              26424
+Total Samples:                            149930
+Nested Sampling ln(Z):                -10.258530
+Acceptance Rate:                        0.175721
+Replacements:                              26474
+Total Samples:                            150659
+Nested Sampling ln(Z):                -10.246490
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.175246
+Replacements:                              26524
+Total Samples:                            151353
+Nested Sampling ln(Z):                -10.234818
+Acceptance Rate:                        0.174711
+Replacements:                              26574
+Total Samples:                            152103
+Nested Sampling ln(Z):                -10.223452
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.174205
+Replacements:                              26624
+Total Samples:                            152831
+Nested Sampling ln(Z):                -10.212377
+Acceptance Rate:                        0.173565
+Replacements:                              26674
+Total Samples:                            153683
+Nested Sampling ln(Z):                -10.201516
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.172858
+Replacements:                              26724
+Total Samples:                            154601
+Nested Sampling ln(Z):                -10.190938
+Acceptance Rate:                        0.172294
+Replacements:                              26774
+Total Samples:                            155397
+Nested Sampling ln(Z):                -10.180651
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.171940
+Replacements:                              26824
+Total Samples:                            156008
+Nested Sampling ln(Z):                -10.170642
+Acceptance Rate:                        0.171390
+Replacements:                              26874
+Total Samples:                            156800
+Nested Sampling ln(Z):                -10.160922
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.171073
+Replacements:                              26924
+Total Samples:                            157383
+Nested Sampling ln(Z):                -10.151486
+Acceptance Rate:                        0.170507
+Replacements:                              26974
+Total Samples:                            158199
+Nested Sampling ln(Z):                -10.142355
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.170065
+Replacements:                              27024
+Total Samples:                            158904
+Nested Sampling ln(Z):                -10.133469
+Acceptance Rate:                        0.169299
+Replacements:                              27074
+Total Samples:                            159918
+Nested Sampling ln(Z):                -10.124836
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.168852
+Replacements:                              27124
+Total Samples:                            160638
+Nested Sampling ln(Z):                -10.116460
+Acceptance Rate:                        0.168229
+Replacements:                              27174
+Total Samples:                            161530
+Nested Sampling ln(Z):                -10.108342
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.167967
+Replacements:                              27224
+Total Samples:                            162079
+Nested Sampling ln(Z):                -10.100431
+Acceptance Rate:                        0.167395
+Replacements:                              27274
+Total Samples:                            162932
+Nested Sampling ln(Z):                -10.092763
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.167070
+Replacements:                              27324
+Total Samples:                            163548
+Nested Sampling ln(Z):                -10.085326
+Acceptance Rate:                        0.166639
+Replacements:                              27374
+Total Samples:                            164271
+Nested Sampling ln(Z):                -10.078079
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.166190
+Replacements:                              27424
+Total Samples:                            165016
+Nested Sampling ln(Z):                -10.071051
+Acceptance Rate:                        0.165535
+Replacements:                              27474
+Total Samples:                            165971
+Nested Sampling ln(Z):                -10.064217
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.165041
+Replacements:                              27524
+Total Samples:                            166771
+Nested Sampling ln(Z):                -10.057579
+Acceptance Rate:                        0.164633
+Replacements:                              27574
+Total Samples:                            167488
+Nested Sampling ln(Z):                -10.051144
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.164112
+Replacements:                              27624
+Total Samples:                            168324
+Nested Sampling ln(Z):                -10.044925
+Acceptance Rate:                        0.163674
+Replacements:                              27674
+Total Samples:                            169080
+Nested Sampling ln(Z):                -10.038908
+
+ MultiNest Warning!
+ Parameter            9  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.163163
+Replacements:                              27724
+Total Samples:                            169916
+Nested Sampling ln(Z):                -10.033082
+Acceptance Rate:                        0.163117
+Replacements:                              27738
+Total Samples:                            170050
+Nested Sampling ln(Z):                -10.031487
+ ln(ev)=  -9.8730348908519758      +/-  0.14638674438495083     
+ Total Likelihood Evaluations:       170050
+ Sampling finished. Exiting MultiNest
+17:36 bilby INFO    : Sampling time: 5:28:19.224048
+17:36 bilby INFO    : Sampling time: 5:28:08.573379
+17:36 bilby INFO    : Sampling time: 5:28:17.883354
+17:36 bilby INFO    : Sampling time: 5:27:46.915905
+17:36 bilby INFO    : Sampling time: 5:27:40.062598
+17:36 bilby INFO    : Sampling time: 5:27:56.664844
+17:36 bilby INFO    : Sampling time: 5:28:07.282630
+17:36 bilby INFO    : Sampling time: 5:28:24.983005
+17:36 bilby INFO    : Sampling time: 5:27:54.010894
+17:36 bilby INFO    : Sampling time: 5:27:53.957724
+17:36 bilby INFO    : Sampling time: 5:28:00.871346
+17:36 bilby INFO    : Sampling time: 5:28:14.623388
+17:36 bilby INFO    : Sampling time: 5:28:12.464830
+17:36 bilby INFO    : Sampling time: 5:27:59.921684
+17:36 bilby INFO    : Sampling time: 5:27:53.803590
+17:36 bilby INFO    : Sampling time: 5:27:50.971951
+17:36 bilby INFO    : Sampling time: 5:28:05.236464
+17:36 bilby INFO    : Sampling time: 5:28:16.133120
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+Traceback (most recent call last):
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 853, in move
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+Traceback (most recent call last):
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 853, in move
+Traceback (most recent call last):
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 853, in move
+    os.rename(src, real_dst)
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json' -> './outdir_nmma/injection_gaussian_result.json.old'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json' -> './outdir_nmma/injection_gaussian_result.json.old'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json' -> './outdir_nmma/injection_gaussian_result.json.old'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+17:36 bilby INFO    : Sampling time: 5:28:05.318904
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 333, in run_sampler
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 333, in run_sampler
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 333, in run_sampler
+    result.save_to_file(extension=save, gzip=gzip, outdir=outdir)
+    result.save_to_file(extension=save, gzip=gzip, outdir=outdir)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    result.save_to_file(extension=save, gzip=gzip, outdir=outdir)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+17:36 bilby INFO    : Sampling time: 5:27:52.715830
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 413, in move_old_file
+    move_old_file(output_path, overwrite)
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 413, in move_old_file
+17:36 bilby INFO    : Sampling time: 5:27:56.834919
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 413, in move_old_file
+    shutil.move(filename, filename + ".old")
+    shutil.move(filename, filename + ".old")
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 873, in move
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 873, in move
+    copy_function(src, real_dst)
+    shutil.move(filename, filename + ".old")
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 448, in copy2
+    copy_function(src, real_dst)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 873, in move
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 448, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 256, in copyfile
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    copy_function(src, real_dst)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 448, in copy2
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+17:36 bilby INFO    : Sampling time: 5:27:58.223601
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+17:36 bilby INFO    : Sampling time: 5:27:35.474597
+17:36 bilby INFO    : Sampling time: 5:27:48.295461
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+    result = bilby.run_sampler(
+    result = bilby.run_sampler(
+    result = bilby.run_sampler(
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    move_old_file(output_path, overwrite)
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    move_old_file(output_path, overwrite)
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    move_old_file(output_path, overwrite)
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    os.remove(filename)
+    os.remove(filename)
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    os.remove(filename)
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+Traceback (most recent call last):
+  File "/nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/inference_nmma.py", line 94, in <module>
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    move_old_file(output_path, overwrite)
+  File "/home/enlil/hkoehn/miniconda3/envs/nmma_eos/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+17:36 bilby INFO    : Summary of results:
+nsamples: 6779
+ln_noise_evidence:  0.000
+ln_evidence: -9.873 +/-  0.146
+ln_bayes_factor: -9.873 +/-  0.146
+
+17:36 bilby INFO    : Writing samples file to /nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/outdir_nmma/injection_gaussian_posterior_samples.dat
+17:36 bilby INFO    : Summary of results:
+nsamples: 6779
+ln_noise_evidence:  0.000
+ln_evidence: -9.873 +/-  0.146
+ln_bayes_factor: -9.873 +/-  0.146
+
+17:36 bilby INFO    : Writing samples file to /nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/outdir_nmma/injection_gaussian_posterior_samples.dat
+17:36 bilby INFO    : Summary of results:
+nsamples: 6779
+ln_noise_evidence:  0.000
+ln_evidence: -9.873 +/-  0.146
+ln_bayes_factor: -9.873 +/-  0.146
+
+17:36 bilby INFO    : Writing samples file to /nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/outdir_nmma/injection_gaussian_posterior_samples.dat
+17:36 bilby INFO    : Summary of results:
+nsamples: 6779
+ln_noise_evidence:  0.000
+ln_evidence: -9.873 +/-  0.146
+ln_bayes_factor: -9.873 +/-  0.146
+
+17:36 bilby INFO    : Summary of results:
+nsamples: 6779
+ln_noise_evidence:  0.000
+ln_evidence: -9.873 +/-  0.146
+ln_bayes_factor: -9.873 +/-  0.146
+
+17:36 bilby INFO    : Writing samples file to /nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/outdir_nmma/injection_gaussian_posterior_samples.dat
+17:36 bilby INFO    : Writing samples file to /nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/outdir_nmma/injection_gaussian_posterior_samples.dat
+17:36 bilby INFO    : Summary of results:
+nsamples: 6779
+ln_noise_evidence:  0.000
+ln_evidence: -9.873 +/-  0.146
+ln_bayes_factor: -9.873 +/-  0.146
+
+17:36 bilby INFO    : Summary of results:
+nsamples: 6779
+ln_noise_evidence:  0.000
+ln_evidence: -9.873 +/-  0.146
+ln_bayes_factor: -9.873 +/-  0.146
+
+17:36 bilby INFO    : Writing samples file to /nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/outdir_nmma/injection_gaussian_posterior_samples.dat
+17:36 bilby INFO    : Summary of results:
+nsamples: 6779
+ln_noise_evidence:  0.000
+ln_evidence: -9.873 +/-  0.146
+ln_bayes_factor: -9.873 +/-  0.146
+
+17:36 bilby INFO    : Writing samples file to /nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/outdir_nmma/injection_gaussian_posterior_samples.dat
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+17:36 bilby INFO    : Writing samples file to /nfs/aya/work/hkoehn/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian/outdir_nmma/injection_gaussian_posterior_samples.dat
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+  analysing data from ./outdir_nmma/pm_injection_gaussian/.txt
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.

@@ -23,6 +23,8 @@ data = load_event_data("../../data/GRB211211A.dat")
 trigger_time = 59559.54791666667
 FILTERS = list(data.keys())
 
+breakpoint()
+
 #########
 # MODEL #
 #########

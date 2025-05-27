@@ -46,7 +46,7 @@ pp_plot(ax, quantiles.flatten(), p_array)
 fig.savefig("./outdir/pp_plot_total.pdf", dpi = 250)
 
 
-fig, ax = plt.subplots(5, 2, figsize = (8, 20))
+fig, ax = plt.subplots(5, 2, figsize = (8, 18))
 fig.subplots_adjust(hspace = 0.25, wspace = 0.3, top = 0.98, bottom = 0.05, left = 0.1, right = 0.98)
 p_array = np.linspace(0, 1, 50)
 for j, cax in enumerate(ax.flatten()[:9]):
