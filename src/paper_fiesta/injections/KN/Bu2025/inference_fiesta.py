@@ -64,13 +64,12 @@ detection_limit = None
 likelihood = EMLikelihood(model,
                           data,
                           FILTERS,
-                          tmin=1e-2,
-                          tmax = 200.0,
+                          tmin=0.2,
+                          tmax = 26.0,
                           trigger_time=trigger_time,
                           detection_limit = detection_limit,
                           fixed_params={"luminosity_distance": 40.0, "redshift": 0.0},
                           )
-
 
 
 mass_matrix = jnp.eye(prior.n_dim)

@@ -14,7 +14,7 @@ param_dict = {"inclination_EM": 0.2,
 
 
 param_dict["trigger_time"] = 58849 # 01-01-2020 in mjd
-FILTERS = ["besselli", "bessellv", "bessellux"]
+FILTERS = ["ps1::y", "besselli", "bessellv", "bessellux"]
 
 injection = InjectionKN(filters=FILTERS, 
                         N_datapoints=75, 
