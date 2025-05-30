@@ -1,0 +1,536 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+13:45 fiesta INFO    : Loading surrogate pbag_gaussian. This surrogate should only be used in the following parameter ranges:
+13:45 fiesta INFO    : 	 inclination_EM: (0, 1.5707963267948966)
+13:45 fiesta INFO    : 	 log10_E0: (47, 57)
+13:45 fiesta INFO    : 	 thetaCore: (0.01, 0.6283185307179586)
+13:45 fiesta INFO    : 	 alphaWing: (0.2, 3.5)
+13:45 fiesta INFO    : 	 log10_n0: (-6, 2)
+13:45 fiesta INFO    : 	 p: (2.01, 3)
+13:45 fiesta INFO    : 	 log10_epsilon_e: (-4, 0)
+13:45 fiesta INFO    : 	 log10_epsilon_B: (-8, 0)
+13:45 fiesta INFO    : 	 Gamma0: (100, 1000)
+13:45 fiesta INFO    : Surrogate pbag_gaussian is loading with the following filters: ['2massh', '2massj', '2massks', 'X-ray-1keV', 'bessellb', 'besselli', 'bessellr', 'bessellux', 'bessellv', 'ps1::g', 'ps1::i', 'ps1::r', 'ps1::z', 'radio-6GHz', 'uvot::b', 'uvot::u', 'uvot::uvm2', 'uvot::uvw1', 'uvot::uvw2', 'uvot::v', 'uvot::white'].
+13:45 fiesta INFO    : Loaded for surrogate pbag_gaussian from /work/koehn1/fiesta/fiesta/surrogates/GRB/pbag_gaussian_CVAE/model.
+13:45 fiesta INFO    : Loading surrogate Bu2024. This surrogate should only be used in the following parameter ranges:
+13:45 fiesta INFO    : 	 log10_mej_dyn: (-3.0, -1.6989700043360187)
+13:45 fiesta INFO    : 	 v_ej_dyn: (0.12, 0.25)
+13:45 fiesta INFO    : 	 Ye_dyn: (0.15, 0.3)
+13:45 fiesta INFO    : 	 log10_mej_wind: (-2.0, -0.8860566476931633)
+13:45 fiesta INFO    : 	 v_ej_wind: (0.03, 0.15)
+13:45 fiesta INFO    : 	 inclination_EM: (0.0, 90.0)
+13:45 fiesta INFO    : 	 redshift: (0, 0.5)
+13:45 fiesta INFO    : Surrogate Bu2024 is loading with the following filters: ['2massh', '2massj', '2massks', 'ps1::g', 'ps1::i', 'ps1::r', 'ps1::z'].
+13:45 fiesta INFO    : Loaded for surrogate Bu2024 from /work/koehn1/fiesta/fiesta/surrogates/KN/Bu2024_lc/model.
+13:45 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+13:45 fiesta INFO    : No detection limit is given. Putting it to infinity.
+13:45 fiesta INFO    : Converting error budget to dictionary.
+13:45 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+13:45 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+13:45 fiesta INFO    : Likelihood is using systematic uncertainty sampling as specified in ./systematics_file.yaml.
+13:45 fiesta INFO    : Prior is updated to sample now systematic uncertainty parameters ['syserr_remaining_1', 'syserr_remaining_2', 'syserr_remaining_3', 'syserr_remaining_4', 'syserr_X-ray_1', 'syserr_X-ray_2', 'syserr_X-ray_3', 'syserr_X-ray_4'].
+13:45 fiesta INFO    : Using MALA as local sampler.
+13:45 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+13:45 fiesta INFO    : Starting sampling.
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [04:46<28:40, 286.76s/it]Tuning global sampler:  29%|██▊       | 2/7 [04:55<10:17, 123.41s/it]Tuning global sampler:  43%|████▎     | 3/7 [05:04<04:44, 71.19s/it] Tuning global sampler:  57%|█████▋    | 4/7 [05:13<02:19, 46.66s/it]Tuning global sampler:  71%|███████▏  | 5/7 [05:22<01:06, 33.10s/it]Tuning global sampler:  86%|████████▌ | 6/7 [05:32<00:24, 24.92s/it]Tuning global sampler: 100%|██████████| 7/7 [05:41<00:00, 19.73s/it]Tuning global sampler: 100%|██████████| 7/7 [05:41<00:00, 48.73s/it]
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:07<00:15,  7.74s/it]Production run:  67%|██████▋   | 2/3 [00:15<00:07,  7.75s/it]Production run: 100%|██████████| 3/3 [00:23<00:00,  7.75s/it]Production run: 100%|██████████| 3/3 [00:23<00:00,  7.75s/it]
+13:51 fiesta INFO    : Sampling finished.
+13:51 fiesta INFO    : Saving training samples to ./pbag/results_training.npz
+13:51 fiesta INFO    : Saving production samples to ./pbag/results_production.npz
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Font family ['serif'] not found. Falling back to DejaVu Sans.
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif
+findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Serif

@@ -1,0 +1,16 @@
+group:
+    filters:
+        - "X-ray-5keV"
+        - "radio-6GHz"
+    time_nodes: 5
+    prior: Uniform
+    params:
+           xmin: 0.3
+           xmax: 1.0
+
+remaining:
+    time_nodes: 6
+    prior: Uniform
+    params:
+           xmin: 0.3
+           xmax: 1.0

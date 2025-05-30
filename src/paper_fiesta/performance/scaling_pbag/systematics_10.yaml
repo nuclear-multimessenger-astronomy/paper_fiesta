@@ -1,0 +1,6 @@
+collective:
+    time_nodes: 1
+    prior: Uniform
+    params: 
+           xmin: 0.3
+           xmax: 1.0

@@ -23,6 +23,8 @@ data = load_event_data("../../data/GRB211211A.dat")
 trigger_time = 59559.54791666667
 FILTERS = list(data.keys())
 
+breakpoint()
+
 #########
 # MODEL #
 #########
@@ -108,8 +110,7 @@ likelihood = EMLikelihood(model,
                           tmax=150.,
                           trigger_time=trigger_time,
                           detection_limit = detection_limit,
-                          fixed_params={"luminosity_distance": 358.47968, "redshift": 0.0763},
-                          error_budget=0.5)
+                          fixed_params={"luminosity_distance": 358.47968, "redshift": 0.0763})
 
 
 
@@ -124,6 +125,7 @@ if not os.path.exists(outdir):
 
 fiesta = Fiesta(likelihood,
                 prior,
+                systematics_file="./systematics_file.yaml",
                 n_chains = 1_000,
                 n_loop_training = 7,
                 n_loop_production = 3,
@@ -137,5 +139,6 @@ fiesta = Fiesta(likelihood,
 
 fiesta.sample(jax.random.PRNGKey(42))
 fiesta.print_summary()
-fiesta.save_results(outdir)
+fiesta.save_results()
 fiesta.plot_lightcurves()
+fiesta.plot_corner()

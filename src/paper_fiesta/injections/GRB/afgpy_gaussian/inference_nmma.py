@@ -7,7 +7,7 @@ from bilby.gw.prior import Uniform, Constraint, PriorDict
 
 from nmma.em.io import loadEvent
 from nmma.em.model import GRBLightCurveModel
-from nmma.em.em_likelihood import EMTransientLikelihood
+from nmma.em.likelihood import OpticalLightCurve
 
 ########
 # DATA #
@@ -27,9 +27,10 @@ def conversion_function(sample):
     converted_sample["epsilon_tot"] = 10**(converted_sample["log10_epsilon_B"]) + 10**(converted_sample["log10_epsilon_e"]) 
     return converted_sample, ["epsilon_tot", "thetaWing"]
 
-model = GRBLightCurveModel(parameter_conversion = conversion_function,
-                           jet_type = 0,
-                           filters = FILTERS)
+model = GRBLightCurveModel(sample_times = np.logspace(np.log10(1e-2), np.log10(200), 100),
+                           parameter_conversion=conversion_function,
+                           jetType=0,
+                           filters=FILTERS)
 
 #########
 # PRIOR #
@@ -45,6 +46,7 @@ log10_epsilon_e = Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e')
 log10_epsilon_B = Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B')
 thetaWing = Constraint(minimum=0, maximum=np.pi/2, name='thetaWing')
 epsilon_tot = Constraint(minimum=0, maximum=1, name='epsilon_tot')
+sys_err = Uniform(minimum=0.3, maximum=1, name='sys_err')
 
 luminosity_distance = 40.0
 redshift = 0.
@@ -62,7 +64,8 @@ prior_dict = dict(inclination_EM = inclination_EM,
               redshift = redshift,
               timeshift = timeshift,
               thetaWing = thetaWing,
-              epsilon_tot = epsilon_tot
+              epsilon_tot = epsilon_tot,
+              sys_err = sys_err,
 )
 
 priors = PriorDict(dictionary = prior_dict, conversion_function = lambda x: conversion_function(x)[0])
@@ -72,12 +75,11 @@ likelihood_kwargs = dict(
     light_curve_data=data,
     filters = FILTERS,
     trigger_time = trigger_time,
-    tmax = 2000.0,
-    error_budget = 0.5,
-    param_conv_func = conversion_function,
-    priors=priors)
+    tmin=1e-2,
+    tmax = 200.0,
+    systematics_file=None)
 
-likelihood = EMTransientLikelihood(**likelihood_kwargs)
+likelihood = OpticalLightCurve(**likelihood_kwargs)
 
 ################
 # LIKELIHOOD & #
@@ -85,7 +87,7 @@ likelihood = EMTransientLikelihood(**likelihood_kwargs)
 ################
 
 sampler_kwargs = {}
-outdir = f"./nmma"
+outdir = f"./outdir_nmma"
 if not os.path.exists(outdir):
     os.makedirs(outdir)
 

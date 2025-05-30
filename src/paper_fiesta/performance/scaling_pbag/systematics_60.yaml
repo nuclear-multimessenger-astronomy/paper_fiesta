@@ -1,0 +1,42 @@
+X-ray:
+    filters:
+        - "X-ray-5keV"
+    time_nodes: 10
+    prior: Uniform
+    params:
+           xmin: 0.3
+           xmax: 1.0
+
+radio:
+    filters:
+        - "radio-6GHz"
+    time_nodes: 10
+    prior: Uniform
+    params:
+           xmin: 0.3
+           xmax: 1.0
+  
+bessell:
+    filters:
+        - "besselli"
+    time_nodes: 10
+    prior: Uniform
+    params:
+           xmin: 0.3
+           xmax: 1.0
+
+uv:
+    filters:
+        - "uvot::b"
+    time_nodes: 10
+    prior: Uniform
+    params:
+           xmin: 0.3
+           xmax: 1.0
+
+remaining:
+    time_nodes: 11
+    prior: Uniform
+    params:
+           xmin: 0.3
+           xmax: 1.0

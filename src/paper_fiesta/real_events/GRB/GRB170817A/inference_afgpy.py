@@ -26,8 +26,7 @@ FILTERS = data.keys()
 # MODEL #
 #########
 
-model = AfterglowFlux(name="afgpy_gaussian",
-                      directory="../../../surrogates/afgpy_gaussian_CVAE/",
+model = AfterglowFlux(name="afgpy_gaussian_CVAE",
                       filters = FILTERS)
 
 
@@ -79,8 +78,8 @@ likelihood = EMLikelihood(model,
                           tmax=2000.0,
                           trigger_time=trigger_time,
                           detection_limit = detection_limit,
-                          fixed_params={"luminosity_distance": 43.58, "redshift": 0.009727},
-                          error_budget=0.5)
+                          fixed_params={"luminosity_distance": 43.58, "redshift": 0.009727}
+                          )
 
 
 
@@ -95,6 +94,7 @@ if not os.path.exists(outdir):
 
 fiesta = Fiesta(likelihood,
                 prior,
+                systematics_file="./systematics_file.yaml",
                 n_chains = 1_000,
                 n_loop_training = 7,
                 n_loop_production = 3,
@@ -108,5 +108,6 @@ fiesta = Fiesta(likelihood,
 
 fiesta.sample(jax.random.PRNGKey(42))
 fiesta.print_summary()
-fiesta.save_results(outdir)
+fiesta.save_results()
 fiesta.plot_lightcurves()
+fiesta.plot_corner()
