@@ -32,7 +32,7 @@ Ye_dyn = Uniform(xmin=0.15, xmax=0.35, naming=["Ye_dyn"])
 log10_mej_wind = Uniform(xmin=-2.0, xmax=-0.89, naming=["log10_mej_wind"])
 v_ej_wind = Uniform(xmin=0.05, xmax=0.15, naming=["v_ej_wind"])
 Ye_wind = Uniform(xmin=0.2, xmax=0.4, naming=["Ye_wind"])
-sys_err = Uniform(xmin=0.5, xmax=2.0, naming=["sys_err"])
+sys_err = Uniform(xmin=0.5, xmax=1.0, naming=["sys_err"])
 
 prior_list = [inclination_EM, 
               log10_mej_dyn,
@@ -72,7 +72,8 @@ for j in range(0, 200):
     param_dict = {key: p.item() for key, p in param_dict.items()}
     param_dict["luminosity_distance"] = 40.0
 
-    injection.create_injection(param_dict, file="/work/koehn1/fiesta/fiesta/surrogates/KN/training_data/Bu2025_raw_data.h5")
+    injection.create_injection(param_dict, file="/home/aya/work/hkoehn/fiesta/fiesta/surrogates/KN/training_data/Bu2025_raw_data.h5")
+    param_dict = injection.injection_dict
 
     likelihood = EMLikelihood(model,
                               injection.data,
@@ -110,10 +111,10 @@ for j in range(0, 200):
     chains = state["chains"]
     n_chains, n_steps, n_dim = jnp.shape(chains)
     samples = jnp.reshape(chains, (n_chains * n_steps, n_dim))
-    quantiles = [jnp.sum(samples[:,j]<=param_dict[p])/(n_chains * n_steps)  for j, p in enumerate(model.parameter_names)]
 
+    quantiles = [jnp.sum(samples[:,j]<=param_dict[p])/(n_chains * n_steps)  for j, p in enumerate(prior.naming[:-1])]
     quantile_list.append(quantiles)
-    param_list.append([param_dict[p] for p in model.parameter_names])
+    param_list.append([param_dict[p] for p in prior.naming[:-1]])
 
 
 np.savetxt("./outdir/quantiles.txt", np.array(quantile_list))

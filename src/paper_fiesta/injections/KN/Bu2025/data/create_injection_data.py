@@ -2,13 +2,13 @@
 from fiesta.inference.injection import InjectionKN
 
 
-param_dict = {"inclination_EM": 0.2,
-              "log10_mej_dyn": -2.,
-              "v_ej_dyn": 0.22,
-              "Ye_dyn": 0.17,
-              "log10_mej_wind": -1.0,
-              "v_ej_wind": 0.3,
-              "Ye_wind": 0.35,
+param_dict = {"inclination_EM": 0.4,
+              "log10_mej_dyn": -2.5,
+              "v_ej_dyn": 0.15,
+              "Ye_dyn": 0.22,
+              "log10_mej_wind": -1.2,
+              "v_ej_wind": 0.08,
+              "Ye_wind": 0.3,
               "luminosity_distance": 40.0, 
               "redshift": 0., }
 
@@ -20,7 +20,7 @@ injection = InjectionKN(filters=FILTERS,
                         N_datapoints=75, 
                         error_budget=0.1, 
                         tmin=0.5, 
-                        tmax=20,
+                        tmax=25,
                         trigger_time=param_dict["trigger_time"],
                         detection_limit=24
                         )

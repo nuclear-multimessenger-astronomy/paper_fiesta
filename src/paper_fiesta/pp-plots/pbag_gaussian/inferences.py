@@ -86,8 +86,9 @@ for j in range(0, 200):
                                      tmax=200, 
                                      trigger_time=58849.)
     
-    injection.create_injection(param_dict, file="/work/koehn1/fiesta/fiesta/surrogates/GRB/training_data/pyblastafterglow_gaussian_raw_data.h5")
-  
+    injection.create_injection(param_dict, file="/home/aya/work/hkoehn/fiesta/fiesta/surrogates/GRB/training_data/pyblastafterglow_gaussian_raw_data.h5")
+    param_dict = injection.injection_dict
+
     likelihood = EMLikelihood(model,
                           injection.data,
                           FILTERS,
