@@ -1,0 +1,25 @@
+# HTCondor submit file to test the training job for harmonic
+EXECUTABLE      = /data/gravwav/twouters/miniconda3/envs/fiesta/bin/python
+universe        = vanilla
+
+# Running the code
+executable      = $(EXECUTABLE)
+getenv          = true
+arguments       = run_harmonic_evidence.py \
+                  --path ../injections/GRB/afgpy_gaussian/outdir_fiesta/results_production.npz \
+                  --outdir ../injections/GRB/afgpy_gaussian/outdir_fiesta/
+
+# Output, error and log files
+output          = ./log_harmonic.out
+error           = ./log_harmonic.err
+log             = ./log_harmonic.log
+
+request_memory = 16GB
+request_cpus = 1
+request_disk = 16GB
+request_gpus = 1
+requirements = regexp("L40S", TARGET.GPUs_DeviceName)
++USeOS = "el9"
++JobCategory = "long"
++MaxWallTime = 345600
+Queue 1
