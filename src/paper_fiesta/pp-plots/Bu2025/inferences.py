@@ -3,6 +3,7 @@ import os
 import numpy as np
 import jax
 import jax.numpy as jnp
+import scipy.integrate as integrate
 
 from fiesta.inference.prior import Uniform, Constraint
 from fiesta.inference.prior_dict import ConstrainedPrior
@@ -10,6 +11,13 @@ from fiesta.inference.fiesta import Fiesta
 from fiesta.inference.likelihood import EMLikelihood
 from fiesta.inference.lightcurve_model import BullaLightcurveModel, AfterglowFlux
 from fiesta.inference.injection import InjectionKN
+
+def hdi_quantile_compute(samples, injected_value):
+    hist, bins = np.histogram(samples, bins='auto', density=True)
+    x = (bins[1:]+bins[:-1])/2
+    density = np.interp(injected_value, x , hist)
+    hist[hist<density] = 0.
+    return integrate.simpson(x=x, y=hist)
 
 
 
@@ -32,7 +40,7 @@ Ye_dyn = Uniform(xmin=0.15, xmax=0.35, naming=["Ye_dyn"])
 log10_mej_wind = Uniform(xmin=-2.0, xmax=-0.89, naming=["log10_mej_wind"])
 v_ej_wind = Uniform(xmin=0.05, xmax=0.15, naming=["v_ej_wind"])
 Ye_wind = Uniform(xmin=0.2, xmax=0.4, naming=["Ye_wind"])
-sys_err = Uniform(xmin=0.5, xmax=1.0, naming=["sys_err"])
+sys_err = Uniform(xmin=0.3, xmax=1.0, naming=["sys_err"])  #used to be 0.5
 
 prior_list = [inclination_EM, 
               log10_mej_dyn,
@@ -54,7 +62,7 @@ rng_key = jax.random.PRNGKey(3551)
 trigger_time = 58849.
 
 injection = InjectionKN(filters=FILTERS, 
-                        N_datapoints=75, 
+                        N_datapoints=50, 
                         error_budget=0.1, 
                         tmin=0.5, 
                         tmax=20,
@@ -62,13 +70,22 @@ injection = InjectionKN(filters=FILTERS,
                         detection_limit=24
                         )
 
+injection_prior = ConstrainedPrior([Uniform(xmin=0.4, xmax=np.pi/2, naming=['inclination_EM']),
+                                    Uniform(xmin=-3.0, xmax=-1.30, naming=["log10_mej_dyn"]),
+                                    Uniform(xmin=0.12, xmax=0.24, naming=["v_ej_dyn"]),
+                                    Uniform(xmin=0.18, xmax=0.32, naming=["Ye_dyn"]),
+                                    Uniform(xmin=-2.0, xmax=-1., naming=["log10_mej_wind"]),
+                                    Uniform(xmin=0.05, xmax=0.15, naming=["v_ej_wind"]),
+                                    Uniform(xmin=0.2, xmax=0.4, naming=["Ye_wind"])
+])
 quantile_list = []
+hdi_quantile_list = []
 param_list = []
 
 for j in range(0, 200):
     
     rng_key, subkey = jax.random.split(rng_key)
-    param_dict = prior.sample(subkey , n_samples=1)
+    param_dict = injection_prior.sample(subkey , n_samples=1)
     param_dict = {key: p.item() for key, p in param_dict.items()}
     param_dict["luminosity_distance"] = 40.0
 
@@ -78,8 +95,8 @@ for j in range(0, 200):
     likelihood = EMLikelihood(model,
                               injection.data,
                               FILTERS,
-                              tmin=0.2,
-                              tmax = 26.0,
+                              tmin=0.5,
+                              tmax = 15.0,
                               trigger_time=trigger_time,
                               detection_limit = None,
                               fixed_params={"luminosity_distance": 40.0, "redshift": 0.0},
@@ -113,9 +130,13 @@ for j in range(0, 200):
     samples = jnp.reshape(chains, (n_chains * n_steps, n_dim))
 
     quantiles = [jnp.sum(samples[:,j]<=param_dict[p])/(n_chains * n_steps)  for j, p in enumerate(prior.naming[:-1])]
+    hdi_quantiles = [hdi_quantile_compute(samples[:,j], param_dict[p]) for j, p in enumerate(prior.naming[:-1])]
+
+    hdi_quantile_list.append(hdi_quantiles)
     quantile_list.append(quantiles)
     param_list.append([param_dict[p] for p in prior.naming[:-1]])
 
 
+np.savetxt("./outdir/hdi_quantiles.txt", np.array(hdi_quantile_list))
 np.savetxt("./outdir/quantiles.txt", np.array(quantile_list))
 np.savetxt("./outdir/params.txt", np.array(param_list)) 
