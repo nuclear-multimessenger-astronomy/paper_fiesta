@@ -1,26 +1,21 @@
 remaining:
-    time_nodes: 1
+    time_nodes: 6
+    time_range: linear 0.3 26
     prior: Uniform
     params:
-        xmin: 1.0
-        xmax: 2.0
+        xmin: 0.5
+        xmax: 2.
 
-X-ray:
+GRB:
     time_nodes: 1
+    time_range: log 10 1000
     prior: Uniform
     params:
         xmin: 0.3
-        xmax: 1.0
+        xmax: 0.5
     filters:
         - "X-ray-1keV"
-
-radio:
-    time_nodes: 1
-    prior: Uniform
-    params:
-        xmin: 0.3
-        xmax: 1.0
-    filters:
         - "radio-3GHz"
         - "radio-6GHz"
+        - "bessellv"
 

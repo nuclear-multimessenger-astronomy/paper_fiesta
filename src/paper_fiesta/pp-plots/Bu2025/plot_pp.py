@@ -41,7 +41,7 @@ Ye_dyn = Uniform(xmin=0.15, xmax=0.35, naming=["Ye_dyn"])
 log10_mej_wind = Uniform(xmin=-2.0, xmax=-0.89, naming=["log10_mej_wind"])
 v_ej_wind = Uniform(xmin=0.05, xmax=0.15, naming=["v_ej_wind"])
 Ye_wind = Uniform(xmin=0.2, xmax=0.4, naming=["Ye_wind"])
-sys_err = Uniform(xmin=0.3, xmax=1.0, naming=["sys_err"])
+sys_err = Uniform(xmin=0.15, xmax=1.0, naming=["sys_err"])
 
 prior_list = [inclination_EM, 
               log10_mej_dyn,
@@ -54,7 +54,9 @@ prior_list = [inclination_EM,
 
 
 quantiles = np.loadtxt("./outdir/quantiles.txt")
+hdi_quantiles = np.loadtxt("./outdir/hdi_quantiles.txt")
 params = np.loadtxt("./outdir/params.txt")
+
 parameter_names = ["$\\iota$", "$\log_{10}(m_{\\mathrm{ej, dyn}})$", "$\\bar{v}_{\\mathrm{ej, dyn}}$", "$\\bar{Y}_{e, \\mathrm{dyn}}$", "$\log_{10}(m_{\\mathrm{ej, wind}})$", "$\\bar{v}_{\\mathrm{ej, wind}}$", "$Y_{e, \\mathrm{wind}}$"]
 double_list = [True, True, False, False, False, False, True]
 
@@ -73,7 +75,7 @@ for j, cax in enumerate(ax.flatten()[:-1]):
     # when the injected value is at the edge of the prior, we should exclude the injected value because the quantile will be 0 or 1
     mask = (params[:,j]> prior_list[j].xmin) & (params[:,j] <  prior_list[j].xmax)
 
-    pp_plot(cax, quantiles[mask, j], p_array, double=double_list[j], color="purple")
+    pp_plot(cax, quantiles[:, j], p_array, double=double_list[j], color="purple")
     cax.text(0.1, 0.8, parameter_names[j], fontsize=15)
 
 

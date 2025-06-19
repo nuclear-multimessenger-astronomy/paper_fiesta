@@ -1,0 +1,55 @@
+10:16 fiesta INFO    : Loading surrogate Bu2025_MLP. This surrogate should only be used in the following parameter ranges:
+10:16 fiesta INFO    : 	 log10_mej_dyn: (-3.0, -1.3010299956639813)
+10:16 fiesta INFO    : 	 v_ej_dyn: (0.12, 0.28)
+10:16 fiesta INFO    : 	 Ye_dyn: (0.15, 0.35)
+10:16 fiesta INFO    : 	 log10_mej_wind: (-2.0, -0.8860566476931633)
+10:16 fiesta INFO    : 	 v_ej_wind: (0.05, 0.15)
+10:16 fiesta INFO    : 	 Ye_wind: (0.2, 0.4)
+10:16 fiesta INFO    : 	 inclination_EM: (0.0, 1.5707963267948966)
+10:16 fiesta INFO    : Surrogate Bu2025_MLP is loading with the following filters: ['2massh', '2massj', '2massks', 'ps1::g', 'ps1::i', 'ps1::r', 'ps1::y', 'ps1::z', 'sdssu'].
+10:16 fiesta INFO    : Loaded for surrogate Bu2025_MLP from /nfs/aya/work/hkoehn/fiesta/fiesta/src/fiesta/surrogates/KN/Bu2025_MLP/model.
+10:16 fiesta INFO    : Loading and preprocessing observations in likelihood . . .
+10:16 fiesta INFO    : No detection limit is given. Putting it to infinity.
+10:16 fiesta INFO    : Converting error budget to dictionary.
+10:16 fiesta INFO    : Loading and preprocessing observations in likelihood . . . DONE
+10:16 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX...
+10:16 fiesta INFO    : Converting error budget to dictionary.
+10:16 fiesta INFO    : Likelihood is using a collective fixed systematic uncertainty 1.0.
+10:16 fiesta INFO    : Using MALA as local sampler.
+10:16 fiesta INFO    : Initializing Fast Inference of Electromagnetic Transients with JAX... DONE
+10:16 fiesta INFO    : Starting sampling.
+No autotune found, use input sampler_params
+Training normalizing flow
+Tuning global sampler:   0%|          | 0/7 [00:00<?, ?it/s]Tuning global sampler:  14%|█▍        | 1/7 [01:08<06:48, 68.01s/it]Tuning global sampler:  29%|██▊       | 2/7 [01:13<02:34, 30.99s/it]Tuning global sampler:  43%|████▎     | 3/7 [01:18<01:16, 19.17s/it]Tuning global sampler:  57%|█████▋    | 4/7 [01:23<00:40, 13.60s/it]Tuning global sampler:  71%|███████▏  | 5/7 [01:28<00:21, 10.52s/it]Tuning global sampler:  86%|████████▌ | 6/7 [01:33<00:08,  8.83s/it]Tuning global sampler: 100%|██████████| 7/7 [01:38<00:00,  7.59s/it]Tuning global sampler: 100%|██████████| 7/7 [01:38<00:00, 14.13s/it]
+Compiling MALA body
+Starting Production run
+Production run:   0%|          | 0/3 [00:00<?, ?it/s]Production run:  33%|███▎      | 1/3 [00:03<00:07,  3.58s/it]Production run:  67%|██████▋   | 2/3 [00:07<00:03,  3.58s/it]Production run: 100%|██████████| 3/3 [00:10<00:00,  3.58s/it]Production run: 100%|██████████| 3/3 [00:10<00:00,  3.58s/it]
+10:18 fiesta INFO    : Sampling finished.
+10:18 fiesta INFO    : Saving training samples to ./Bu2025/results_training.npz
+10:18 fiesta INFO    : Saving production samples to ./Bu2025/results_production.npz
+Training summary
+==========
+inclination_EM: 0.436 +/- 0.287
+log10_mej_dyn: -2.248 +/- 0.303
+v_ej_dyn: 0.227 +/- 0.029
+Ye_dyn: 0.319 +/- 0.030
+log10_mej_wind: -1.189 +/- 0.131
+v_ej_wind: 0.058 +/- 0.016
+Ye_wind: 0.244 +/- 0.029
+Log probability: -129.520 +/- 131.490
+Local acceptance: 0.183 +/- 0.386
+Global acceptance: 0.320 +/- 0.466
+Max loss: 9.813, Min loss: 6.600
+Production summary
+==========
+inclination_EM: 0.375 +/- 0.235
+log10_mej_dyn: -2.269 +/- 0.228
+v_ej_dyn: 0.231 +/- 0.020
+Ye_dyn: 0.325 +/- 0.017
+log10_mej_wind: -1.197 +/- 0.099
+v_ej_wind: 0.053 +/- 0.003
+Ye_wind: 0.237 +/- 0.015
+Log probability: -109.180 +/- 1.528
+Local acceptance: 0.212 +/- 0.408
+Global acceptance: 0.490 +/- 0.500
+==========

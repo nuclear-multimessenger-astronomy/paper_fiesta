@@ -53,8 +53,8 @@ for j, cax in enumerate(ax.flatten()[:8]):
     pp_plot(cax, quantiles[:, j], p_array, double=False, color="deepskyblue")
     cax.text(0.1, 0.8, parameter_names[j], fontsize=15)
 
-for j, cax in enumerate(ax.flatten()[:8]):
-    cax.hist(quantiles_old[:, j], density=True, cumulative=True, histtype="step", bins=p_array, color = "black")
+#for j, cax in enumerate(ax.flatten()[:8]):
+#    cax.hist(quantiles_old[:, j], density=True, cumulative=True, histtype="step", bins=p_array, color = "black")
 
 handles = []
 for c in ["deepskyblue", "black"]:

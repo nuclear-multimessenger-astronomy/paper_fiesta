@@ -34,7 +34,7 @@ model = AfterglowFlux(name="pbag_gaussian_CVAE",
 # PRIOR #
 #########
 
-inclination_EM = Uniform(xmin=0.0, xmax=np.pi/2, naming=['inclination_EM'])
+inclination_EM = Uniform(xmin=0.0, xmax=np.pi/4, naming=['inclination_EM'])
 log10_E0 = Uniform(xmin=47.0, xmax=57.0, naming=['log10_E0'])
 thetaCore = Uniform(xmin=0.01, xmax=np.pi/5, naming=['thetaCore'])
 alphaWing = Uniform(xmin = 0.2, xmax = 3.5, naming= ["alphaWing"])
@@ -84,9 +84,6 @@ likelihood = EMLikelihood(model,
 
 
 
-mass_matrix = jnp.eye(prior.n_dim)
-eps = 5e-3
-local_sampler_arg = {"step_size": mass_matrix * eps}
 
 # Save for postprocessing
 outdir = f"./pbag/"
@@ -104,7 +101,6 @@ fiesta = Fiesta(likelihood,
                 n_epochs = 20,
                 n_local_steps = 50,
                 n_global_steps = 200,
-                local_sampler_arg=local_sampler_arg,
                 outdir = outdir)
 
 fiesta.sample(jax.random.PRNGKey(42))

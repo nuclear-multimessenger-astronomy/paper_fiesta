@@ -42,7 +42,7 @@ model = CombinedSurrogate(models=[model1, model2],
 #########
 
 GRB_prior = [
-             Uniform(xmin=0.0, xmax=np.pi/2, naming=['inclination_EM']),
+             Uniform(xmin=0.0, xmax=np.pi/4, naming=['inclination_EM']),
              Uniform(xmin=47.0, xmax=57.0, naming=['log10_E0']), 
              Uniform(xmin=0.01, xmax=np.pi/5, naming=['thetaCore']),
              Uniform(xmin = 0.2, xmax=3.5, naming= ["alphaWing"]),
@@ -93,11 +93,6 @@ likelihood = EMLikelihood(model,
                           fixed_params={"luminosity_distance": 43.583656, "redshift":0.009727})
 
 
-
-mass_matrix = jnp.eye(prior.n_dim)
-eps = 5e-3
-local_sampler_arg = {"step_size": mass_matrix * eps}
-
 # Save for postprocessing
 outdir = f"./afgpy/"
 if not os.path.exists(outdir):
@@ -114,7 +109,6 @@ fiesta = Fiesta(likelihood,
                 n_epochs = 20,
                 n_local_steps = 50,
                 n_global_steps = 200,
-                local_sampler_arg=local_sampler_arg,
                 outdir = outdir)
 
 fiesta.sample(jax.random.PRNGKey(42))

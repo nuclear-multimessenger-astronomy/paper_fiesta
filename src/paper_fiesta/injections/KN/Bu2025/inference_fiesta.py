@@ -41,7 +41,7 @@ Ye_dyn = Uniform(xmin=0.15, xmax=0.35, naming=["Ye_dyn"])
 log10_mej_wind = Uniform(xmin=-2.0, xmax=-0.89, naming=["log10_mej_wind"])
 v_ej_wind = Uniform(xmin=0.05, xmax=0.15, naming=["v_ej_wind"])
 Ye_wind = Uniform(xmin=0.2, xmax=0.4, naming=["Ye_wind"])
-sys_err = Uniform(xmin=0.5, xmax=1.5, naming=["sys_err"])
+sys_err = Uniform(xmin=0.15, xmax=1.5, naming=["sys_err"])
 
 prior_list = [inclination_EM, 
               log10_mej_dyn,

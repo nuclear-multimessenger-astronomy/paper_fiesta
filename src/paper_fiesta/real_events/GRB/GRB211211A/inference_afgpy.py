@@ -4,8 +4,6 @@ import numpy as np
 import jax
 import jax.numpy as jnp
 
-print(jax.devices())
-
 from fiesta.inference.prior import Uniform, Constraint
 from fiesta.inference.prior_dict import ConstrainedPrior
 from fiesta.inference.fiesta import Fiesta
@@ -28,8 +26,7 @@ FILTERS = list(data.keys())
 # MODEL #
 #########
 
-model = AfterglowFlux(name="afgpy_gaussian",
-                      directory="../../../surrogates/afgpy_gaussian_CVAE/",
+model = AfterglowFlux(name="afgpy_gaussian_CVAE",
                       filters = FILTERS)
 
 #########
@@ -46,6 +43,7 @@ p = Uniform(xmin=2.01, xmax=3.0, naming=['p'])
 log10_epsilon_e = Uniform(xmin=-4.0, xmax=0.0, naming=['log10_epsilon_e'])
 log10_epsilon_B = Uniform(xmin=-8.0, xmax=0.0, naming=['log10_epsilon_B'])
 epsilon_tot = Constraint(xmin = 0., xmax = 1., naming=["epsilon_tot"])
+sys_err = Uniform(xmin=0.3, xmax=1., naming=["sys_err"])
 
 def conversion_function(sample):
     converted_sample = sample
@@ -62,7 +60,8 @@ prior_list = [inclination_EM,
               log10_epsilon_e, 
               log10_epsilon_B,
               thetaWing,
-              epsilon_tot]
+              epsilon_tot,
+              sys_err]
 
 prior = ConstrainedPrior(prior_list, conversion_function)
 
@@ -74,20 +73,14 @@ prior = ConstrainedPrior(prior_list, conversion_function)
   
 detection_limit = None
 likelihood = EMLikelihood(model,
-                          data, #{"X-ray-1keV": data["X-ray-1keV"]},
+                          data,
                           FILTERS,
-                          tmin=1e-4,
+                          tmin=0.2,
                           tmax=150.,
                           trigger_time=trigger_time,
                           detection_limit = detection_limit,
-                          fixed_params={"luminosity_distance": 358.47968, "redshift": 0.0763},
-                          error_budget=0.5)
+                          fixed_params={"luminosity_distance": 358.47968, "redshift": 0.0763})
 
-
-
-mass_matrix = jnp.eye(prior.n_dim)
-eps = 5e-3
-local_sampler_arg = {"step_size": mass_matrix * eps}
 
 # Save for postprocessing
 outdir = f"./afgpy/"
@@ -104,10 +97,12 @@ fiesta = Fiesta(likelihood,
                 n_epochs = 20,
                 n_local_steps = 50,
                 n_global_steps = 200,
-                local_sampler_arg=local_sampler_arg,
                 outdir = outdir)
 
 fiesta.sample(jax.random.PRNGKey(42))
+
+
 fiesta.print_summary()
-fiesta.save_results(outdir)
+fiesta.save_results()
 fiesta.plot_lightcurves()
+fiesta.plot_corner()

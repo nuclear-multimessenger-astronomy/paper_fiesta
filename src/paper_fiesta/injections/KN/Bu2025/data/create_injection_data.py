@@ -3,10 +3,10 @@ from fiesta.inference.injection import InjectionKN
 
 
 param_dict = {"inclination_EM": 0.4,
-              "log10_mej_dyn": -2.5,
+              "log10_mej_dyn": -2,
               "v_ej_dyn": 0.15,
               "Ye_dyn": 0.22,
-              "log10_mej_wind": -1.2,
+              "log10_mej_wind": -1.3,
               "v_ej_wind": 0.08,
               "Ye_wind": 0.3,
               "luminosity_distance": 40.0, 
