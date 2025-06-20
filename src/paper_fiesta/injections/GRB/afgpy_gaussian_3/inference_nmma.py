@@ -25,6 +25,7 @@ def conversion_function(sample):
     converted_sample = sample
     converted_sample["thetaWing"] = converted_sample["thetaCore"] * converted_sample["alphaWing"]
     converted_sample["epsilon_tot"] = 10**(converted_sample["log10_epsilon_B"]) + 10**(converted_sample["log10_epsilon_e"]) 
+    converted_sample["counterjet"] = True
     return converted_sample, ["epsilon_tot", "thetaWing"]
 
 model = GRBLightCurveModel(sample_times = np.logspace(np.log10(1e-2), np.log10(200), 100),
