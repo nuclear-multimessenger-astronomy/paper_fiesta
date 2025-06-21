@@ -1078,3 +1078,362 @@ To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, 
 18:05 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f6dc73d5b10>>}
 18:05 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
 18:05 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+23:14 bilby INFO    : Sampling time: 6:06:47.273624
+23:14 bilby INFO    : Sampling time: 6:06:54.697599
+23:14 bilby INFO    : Sampling time: 6:07:06.983944
+23:14 bilby INFO    : Sampling time: 6:07:10.645201
+23:14 bilby INFO    : Sampling time: 6:07:15.536776
+23:14 bilby INFO    : Sampling time: 6:07:16.353648
+23:14 bilby INFO    : Sampling time: 6:06:57.582528
+23:14 bilby INFO    : Sampling time: 6:06:44.643893
+23:14 bilby INFO    : Sampling time: 6:07:24.127831
+23:14 bilby INFO    : Sampling time: 6:06:38.561906
+23:14 bilby INFO    : Sampling time: 6:07:15.746979
+23:14 bilby INFO    : Sampling time: 6:06:51.963035
+23:14 bilby INFO    : Sampling time: 6:07:01.081141
+23:14 bilby INFO    : Sampling time: 6:07:03.394010
+23:14 bilby INFO    : Sampling time: 6:07:02.798556
+23:14 bilby INFO    : Sampling time: 6:07:11.633668
+23:14 bilby INFO    : Sampling time: 6:06:48.762734
+23:14 bilby INFO    : Sampling time: 6:06:30.708868
+23:14 bilby INFO    : Sampling time: 6:06:52.786052
+23:14 bilby INFO    : Sampling time: 6:06:49.977260
+23:14 bilby INFO    : Sampling time: 6:06:54.276028
+Traceback (most recent call last):
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 853, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json' -> './outdir_nmma/injection_gaussian_result.json.old'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/inference_nmma.py", line 95, in <module>
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 333, in run_sampler
+    result.save_to_file(extension=save, gzip=gzip, outdir=outdir)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+23:14 bilby INFO    : Sampling time: 6:06:56.687788
+    move_old_file(output_path, overwrite)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/utils/io.py", line 413, in move_old_file
+    shutil.move(filename, filename + ".old")
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 873, in move
+    copy_function(src, real_dst)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 448, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+23:14 bilby INFO    : Sampling time: 6:07:08.302400
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+23:14 bilby INFO    : Sampling time: 6:06:56.514009
+23:14 bilby INFO    : Sampling time: 6:06:52.711250
+23:14 bilby INFO    : Sampling time: 6:07:11.877807
+23:14 bilby INFO    : Sampling time: 6:06:51.027982
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+Traceback (most recent call last):
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 853, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json' -> './outdir_nmma/injection_gaussian_result.json.old'
+
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 853, in move
+
+Traceback (most recent call last):
+  File "/work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/inference_nmma.py", line 95, in <module>
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json' -> './outdir_nmma/injection_gaussian_result.json.old'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/inference_nmma.py", line 95, in <module>
+23:14 bilby INFO    : Sampling time: 6:06:50.869232
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 333, in run_sampler
+23:14 bilby INFO    : Sampling time: 6:06:50.197211
+    result.save_to_file(extension=save, gzip=gzip, outdir=outdir)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    result = bilby.run_sampler(
+    move_old_file(output_path, overwrite)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/utils/io.py", line 413, in move_old_file
+             ^^^^^^^^^^^^^^^^^^
+    shutil.move(filename, filename + ".old")
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 873, in move
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 333, in run_sampler
+Traceback (most recent call last):
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 853, in move
+    copy_function(src, real_dst)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 448, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+    result.save_to_file(extension=save, gzip=gzip, outdir=outdir)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 256, in copyfile
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json' -> './outdir_nmma/injection_gaussian_result.json.old'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/inference_nmma.py", line 95, in <module>
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 333, in run_sampler
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    result.save_to_file(extension=save, gzip=gzip, outdir=outdir)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+Traceback (most recent call last):
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 853, in move
+    move_old_file(output_path, overwrite)
+    move_old_file(output_path, overwrite)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/utils/io.py", line 413, in move_old_file
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/utils/io.py", line 413, in move_old_file
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json' -> './outdir_nmma/injection_gaussian_result.json.old'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/inference_nmma.py", line 95, in <module>
+    shutil.move(filename, filename + ".old")
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 873, in move
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 333, in run_sampler
+    shutil.move(filename, filename + ".old")
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 873, in move
+    result.save_to_file(extension=save, gzip=gzip, outdir=outdir)
+    copy_function(src, real_dst)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 448, in copy2
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    copy_function(src, real_dst)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 448, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 236, in copyfile
+    move_old_file(output_path, overwrite)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/utils/io.py", line 413, in move_old_file
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 256, in copyfile
+    shutil.move(filename, filename + ".old")
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 873, in move
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: './outdir_nmma/injection_gaussian_result.json' and './outdir_nmma/injection_gaussian_result.json.old' are the same file
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+    copy_function(src, real_dst)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 448, in copy2
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+23:14 bilby INFO    : Sampling time: 6:07:17.260251
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+23:14 bilby INFO    : Summary of results:
+nsamples: 7612
+ln_noise_evidence:  0.000
+ln_evidence: -15.942 +/-  0.163
+ln_bayes_factor: -15.942 +/-  0.163
+
+23:14 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_2/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
