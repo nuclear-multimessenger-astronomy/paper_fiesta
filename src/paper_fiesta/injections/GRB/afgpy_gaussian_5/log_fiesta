@@ -1,0 +1,72 @@
+INFO: deactivate-binutils_linux-64.sh made the following environmental changes:
++HOST=x86_64-conda-linux-gnu
+-ADDR2LINE=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-addr2line
+-AR=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ar
+-AS=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-as
+-CXXFILT=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-c++filt
+-ELFEDIT=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-elfedit
+-GPROF=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-gprof
+-HOST=x86_64-conda_cos6-linux-gnu
+-LD=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ld
+-LD_GOLD=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ld.gold
+-NM=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-nm
+-OBJCOPY=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-objcopy
+-OBJDUMP=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-objdump
+-RANLIB=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ranlib
+-READELF=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-readelf
+-SIZE=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-size
+-STRINGS=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-strings
+-STRIP=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-strip
+INFO: activate-binutils_linux-64.sh made the following environmental changes:
++ADDR2LINE=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-addr2line
++AR=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ar
++AS=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-as
++CXXFILT=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-c++filt
++ELFEDIT=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-elfedit
++GPROF=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-gprof
++HOST=x86_64-conda_cos6-linux-gnu
++LD=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ld
++LD_GOLD=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ld.gold
++NM=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-nm
++OBJCOPY=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-objcopy
++OBJDUMP=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-objdump
++RANLIB=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-ranlib
++READELF=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-readelf
++SIZE=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-size
++STRINGS=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-strings
++STRIP=/home/koehn1/.conda/envs/fiesta/bin/x86_64-conda_cos6-linux-gnu-strip
+-HOST=x86_64-conda-linux-gnu
+No autotune found, use input sampler_params
+Training normalizing flow
+Compiling MALA body
+Starting Production run
+Training summary
+==========
+inclination_EM: 0.389 +/- 0.291
+log10_E0: 55.701 +/- 1.009
+thetaCore: 0.415 +/- 0.127
+alphaWing: 2.196 +/- 0.691
+log10_n0: -2.619 +/- 1.769
+p: 2.168 +/- 0.149
+log10_epsilon_e: -1.931 +/- 0.558
+log10_epsilon_B: -3.516 +/- 1.409
+sys_err: 0.447 +/- 0.220
+Log probability: -6178.997 +/- 59262.945
+Local acceptance: 0.560 +/- 0.496
+Global acceptance: 0.153 +/- 0.360
+Max loss: 12.613, Min loss: 3.875
+Production summary
+==========
+inclination_EM: 0.435 +/- 0.300
+log10_E0: 55.912 +/- 0.388
+thetaCore: 0.419 +/- 0.123
+alphaWing: 2.366 +/- 0.671
+log10_n0: -3.015 +/- 1.553
+p: 2.110 +/- 0.019
+log10_epsilon_e: -2.071 +/- 0.329
+log10_epsilon_B: -3.128 +/- 0.912
+sys_err: 0.305 +/- 0.005
+Log probability: 3.145 +/- 1.855
+Local acceptance: 0.487 +/- 0.500
+Global acceptance: 0.366 +/- 0.482
+==========

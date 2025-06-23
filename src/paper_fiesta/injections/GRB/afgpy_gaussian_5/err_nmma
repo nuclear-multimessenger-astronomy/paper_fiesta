@@ -1,0 +1,1398 @@
+2025-06-22 22:24:33.580068: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.580884: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.583793: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.591298: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.604136   30066 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1750631073.608182   30066 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1750631073.618509   30066 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.618649   30066 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.618713   30066 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.618770   30066 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-22 22:24:33.622379: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.691889: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.692917: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.693009: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.693834: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.696854: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.696961: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.704048: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.707932: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.716991   30059 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-22 22:24:33.717626: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717618: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717620: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717630: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717621: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717626: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717622: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717618: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717623: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717618: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717626: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717618: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.717620: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.718416: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718426: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718418: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718413: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718411: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718419: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718411: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718425: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718424: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718420: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718424: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718431: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.718430: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+E0000 00:00:1750631073.721119   30059 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-22 22:24:33.721819: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721819: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721814: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721827: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721814: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721816: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721822: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721824: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721822: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721816: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721820: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721833: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.721833: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.724081: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.725154: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.727468   30060 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-22 22:24:33.729395: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+W0000 00:00:1750631073.731570   30059 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.731732   30059 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.731768   30059 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.731804   30059 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-22 22:24:33.732238: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732240: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732237: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732240: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732243: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732292: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732321: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732277: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732318: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732263: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732277: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732409: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732399: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.732471: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+E0000 00:00:1750631073.733105   30060 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-22 22:24:33.733412: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.735368: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.737345: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.738109: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.738950: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.740473: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.742742: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.743379: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.744208: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.745767: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.746528: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.747879: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.748236: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+W0000 00:00:1750631073.748865   30060 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.748995   30060 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.749075   30060 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.749153   30060 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-22 22:24:33.749930: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751313   30063 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751311   30067 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751289   30071 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751318   30074 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751289   30079 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751411   30057 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751407   30058 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751347   30064 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751318   30068 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751407   30070 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751325   30073 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751561   30085 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.751607   30075 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-22 22:24:33.753572: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.753656: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.754393: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.754630: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.754656: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.755412: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+E0000 00:00:1750631073.756673   30064 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.756771   30063 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.756759   30067 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.756774   30068 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.756771   30071 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.756772   30074 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.756830   30057 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.756824   30058 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.756848   30070 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.756867   30073 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.756843   30079 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.757041   30075 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.757032   30085 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-22 22:24:33.757958: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.758606: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.759720: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.760327   30076 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-22 22:24:33.760781: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.765035: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.766002: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+E0000 00:00:1750631073.766050   30076 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.767626   30081 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-22 22:24:33.768434: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.769930: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.770573: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+W0000 00:00:1750631073.770859   30057 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770879   30057 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770882   30057 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770885   30057 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770858   30058 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770879   30058 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770882   30058 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770884   30058 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770867   30063 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770885   30063 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770888   30063 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770891   30063 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770865   30064 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770888   30064 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770891   30064 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770893   30064 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770859   30068 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770879   30068 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770882   30068 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770884   30068 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770859   30070 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770879   30070 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770882   30070 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770884   30070 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770867   30071 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770885   30071 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770887   30071 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770890   30071 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770862   30073 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770879   30073 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770882   30073 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770884   30073 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770858   30074 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770879   30074 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770882   30074 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770884   30074 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770865   30075 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770883   30075 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770886   30075 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770888   30075 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770869   30079 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770885   30079 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770887   30079 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770890   30079 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770865   30085 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770883   30085 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770885   30085 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770888   30085 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770913   30067 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770928   30067 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770930   30067 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.770932   30067 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.773015   30084 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1750631073.773522   30081 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-22 22:24:33.775217: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775222: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775212: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775214: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775214: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775224: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775213: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775214: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775270: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775269: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775245: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775254: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.775604: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.777961   30083 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1750631073.778532   30084 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-22 22:24:33.779688: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.779918   30078 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+W0000 00:00:1750631073.781189   30076 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.781286   30076 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.781407   30076 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.781490   30076 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-22 22:24:33.782928: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.783800: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+E0000 00:00:1750631073.783778   30083 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.785797   30078 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-22 22:24:33.786573: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.787461: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+W0000 00:00:1750631073.788514   30081 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.788599   30081 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.788642   30081 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.788686   30081 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.790654   30080 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+W0000 00:00:1750631073.792823   30084 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.792910   30084 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.792958   30084 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.792999   30084 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.793178   30077 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-22 22:24:33.793407: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.795919   30086 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1750631073.796214   30080 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-22 22:24:33.797604: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+E0000 00:00:1750631073.797845   30077 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1750631073.798370   30083 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.798524   30083 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.798609   30083 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.798690   30083 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-22 22:24:33.798871: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+W0000 00:00:1750631073.800184   30078 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.800266   30078 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.800314   30078 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.800357   30078 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+E0000 00:00:1750631073.800396   30086 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-22 22:24:33.800535: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.801301: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.802530: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.803225: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.803376: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.804656: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.804741: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.805098: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.805255: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.806637: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.808283: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+W0000 00:00:1750631073.809500   30077 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.809531   30077 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.809533   30077 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.809536   30077 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.810355   30080 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.810376   30080 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.810378   30080 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.810381   30080 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.812477   30086 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.812513   30086 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.812515   30086 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.812517   30086 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-22 22:24:33.813360: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.814085: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.814821: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.815042: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.815794: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.816441: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.816856: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-22 22:24:33.817709: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.818241   30062 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-22 22:24:33.818416: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+E0000 00:00:1750631073.823751   30062 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-22 22:24:33.829051: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.832617   30065 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.833476   30061 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.834767   30072 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1750631073.836945   30065 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1750631073.837630   30061 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1750631073.837955   30062 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.837975   30062 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.837978   30062 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.837980   30062 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+E0000 00:00:1750631073.840192   30072 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-22 22:24:33.842653: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.848499   30069 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+W0000 00:00:1750631073.848858   30065 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.848875   30065 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.848877   30065 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.848879   30065 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.849206   30061 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.849223   30061 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.849225   30061 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.849227   30061 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-22 22:24:33.852775: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.852911: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+E0000 00:00:1750631073.854093   30069 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1750631073.854109   30072 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.854125   30072 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.854127   30072 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.854129   30072 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-22 22:24:33.858697: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.859945: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-22 22:24:33.860632: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-06-22 22:24:33.863510: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+W0000 00:00:1750631073.866273   30069 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.866290   30069 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.866292   30069 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.866294   30069 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-22 22:24:33.870271: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-22 22:24:33.871520: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750631073.887303   30082 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1750631073.891883   30082 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1750631073.903523   30082 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.903545   30082 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.903548   30082 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750631073.903550   30082 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-22 22:24:33.907538: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Running for label 'injection_gaussian', output will be saved to './outdir_nmma'
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:24 bilby INFO    : Analysis priors:
+22:24 bilby INFO    : inclination_EM=Uniform(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='inclination_EM', unit=None, boundary=None)
+22:24 bilby INFO    : log10_E0=Uniform(minimum=47.0, maximum=57.0, name='log10_E0', latex_label='log10_E0', unit=None, boundary=None)
+22:24 bilby INFO    : thetaCore=Uniform(minimum=0.01, maximum=0.6283185307179586, name='thetaCore', latex_label='thetaCore', unit=None, boundary=None)
+22:24 bilby INFO    : alphaWing=Uniform(minimum=0.2, maximum=3.4, name='alphaWing', latex_label='alphaWing', unit=None, boundary=None)
+22:24 bilby INFO    : log10_n0=Uniform(minimum=-6.0, maximum=2.0, name='log10_n0', latex_label='log10_n0', unit=None, boundary=None)
+22:24 bilby INFO    : p=Uniform(minimum=2.01, maximum=3.0, name='p', latex_label='p', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_e=Uniform(minimum=-4.0, maximum=0.0, name='log10_epsilon_e', latex_label='log10_epsilon_e', unit=None, boundary=None)
+22:24 bilby INFO    : log10_epsilon_B=Uniform(minimum=-8.0, maximum=0.0, name='log10_epsilon_B', latex_label='log10_epsilon_B', unit=None, boundary=None)
+22:24 bilby INFO    : sys_err=Uniform(minimum=0.3, maximum=1, name='sys_err', latex_label='sys_err', unit=None, boundary=None)
+22:24 bilby INFO    : thetaWing=Constraint(minimum=0, maximum=1.5707963267948966, name='thetaWing', latex_label='thetaWing', unit=None)
+22:24 bilby INFO    : epsilon_tot=Constraint(minimum=0, maximum=1, name='epsilon_tot', latex_label='epsilon_tot', unit=None)
+22:24 bilby INFO    : luminosity_distance=40.0
+22:24 bilby INFO    : redshift=0.0
+22:24 bilby INFO    : timeshift=0.0
+22:24 bilby INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+22:24 bilby INFO    : Analysis likelihood noise evidence: 0.0
+22:28 bilby INFO    : Single likelihood evaluation took 1.901e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f89fc31b090>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.017e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fb85a945310>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.061e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fe3e0ad0310>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.091e+00 s
+22:28 bilby INFO    : Single likelihood evaluation took 2.103e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f5e4175d910>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fc46505d7d0>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.131e+00 s
+22:28 bilby INFO    : Single likelihood evaluation took 2.128e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7faa85df9090>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f4aa5e25b90>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.249e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fc052cb0f50>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.264e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f32d6a6ebd0>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.284e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f0400779150>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.263e+00 s
+22:28 bilby INFO    : Single likelihood evaluation took 2.303e+00 s
+22:28 bilby INFO    : Single likelihood evaluation took 2.305e+00 s
+22:28 bilby INFO    : Single likelihood evaluation took 2.314e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fd959bd3350>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.304e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f0dd66c5410>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f0320215b90>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7ff228e6d5d0>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.302e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7efedc33ef50>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f81ecbb6490>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.370e+00 s
+22:28 bilby INFO    : Single likelihood evaluation took 2.325e+00 s
+22:28 bilby INFO    : Single likelihood evaluation took 2.362e+00 s
+22:28 bilby INFO    : Single likelihood evaluation took 2.371e+00 s
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f38174b75d0>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f8e6cb59c10>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fe9b2675790>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:28 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f31d2741550>>}
+22:28 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:28 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:28 bilby INFO    : Single likelihood evaluation took 2.360e+00 s
+22:29 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:29 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fae91c48dd0>>}
+22:29 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:29 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:29 bilby INFO    : Single likelihood evaluation took 2.398e+00 s
+22:29 bilby INFO    : Single likelihood evaluation took 2.444e+00 s
+22:29 bilby INFO    : Single likelihood evaluation took 2.444e+00 s
+22:29 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:29 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fa95ab29350>>}
+22:29 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:29 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:29 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:29 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f928bab1250>>}
+22:29 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:29 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:29 bilby INFO    : Single likelihood evaluation took 2.440e+00 s
+22:29 bilby INFO    : Single likelihood evaluation took 2.451e+00 s
+22:29 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:29 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fc251f75410>>}
+22:29 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:29 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:29 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:29 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f106e959c50>>}
+22:29 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:29 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:29 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:29 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f95e0321d90>>}
+22:29 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:29 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:29 bilby INFO    : Single likelihood evaluation took 2.513e+00 s
+22:29 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:29 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f3601c5af50>>}
+22:29 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:29 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:29 bilby INFO    : Single likelihood evaluation took 2.533e+00 s
+22:29 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:29 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f94dc3494d0>>}
+22:29 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:29 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:29 bilby INFO    : Single likelihood evaluation took 2.582e+00 s
+22:29 bilby INFO    : Single likelihood evaluation took 2.580e+00 s
+22:29 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:29 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f5fdc10d950>>}
+22:29 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:29 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+22:29 bilby WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+22:29 bilby INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 9, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f576f2a9550>>}
+22:29 bilby INFO    : Temporary directory incompatible with MPI, will run in original directory
+22:29 bilby INFO    : Using output file ./outdir_nmma/pm_injection_gaussian/
+05:17 bilby INFO    : Sampling time: 6:48:16.738455
+05:17 bilby INFO    : Sampling time: 6:48:34.146575
+05:17 bilby INFO    : Sampling time: 6:48:20.691272
+05:17 bilby INFO    : Sampling time: 6:47:46.488205
+05:17 bilby INFO    : Sampling time: 6:48:16.606305
+Traceback (most recent call last):
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 853, in move
+    os.rename(src, real_dst)
+05:17 bilby INFO    : Sampling time: 6:48:37.185374
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json' -> './outdir_nmma/injection_gaussian_result.json.old'
+05:17 bilby INFO    : Sampling time: 6:48:11.294767
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/inference_nmma.py", line 95, in <module>
+05:17 bilby INFO    : Sampling time: 6:47:49.094009
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 333, in run_sampler
+05:17 bilby INFO    : Sampling time: 6:48:11.179641
+    result.save_to_file(extension=save, gzip=gzip, outdir=outdir)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+05:17 bilby INFO    : Sampling time: 6:48:41.858490
+    move_old_file(output_path, overwrite)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/utils/io.py", line 413, in move_old_file
+05:17 bilby INFO    : Sampling time: 6:48:17.033907
+    shutil.move(filename, filename + ".old")
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 873, in move
+    copy_function(src, real_dst)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 448, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Sampling time: 6:47:52.511219
+05:17 bilby INFO    : Sampling time: 6:48:14.992060
+05:17 bilby INFO    : Sampling time: 6:48:17.480194
+05:17 bilby INFO    : Sampling time: 6:48:08.895264
+05:17 bilby INFO    : Sampling time: 6:48:32.672053
+05:17 bilby INFO    : Sampling time: 6:47:54.277618
+05:17 bilby INFO    : Sampling time: 6:48:57.079656
+05:17 bilby INFO    : Sampling time: 6:48:03.309611
+05:17 bilby INFO    : Sampling time: 6:48:11.292290
+05:17 bilby INFO    : Sampling time: 6:48:37.548868
+05:17 bilby INFO    : Sampling time: 6:48:22.578871
+05:17 bilby INFO    : Sampling time: 6:48:00.405112
+Traceback (most recent call last):
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 853, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json' -> './outdir_nmma/injection_gaussian_result.json.old'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/inference_nmma.py", line 95, in <module>
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 333, in run_sampler
+05:17 bilby INFO    : Sampling time: 6:48:44.367306
+    result.save_to_file(extension=save, gzip=gzip, outdir=outdir)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    move_old_file(output_path, overwrite)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/utils/io.py", line 413, in move_old_file
+    shutil.move(filename, filename + ".old")
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 873, in move
+    copy_function(src, real_dst)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 448, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Sampling time: 6:48:15.552253
+05:17 bilby INFO    : Sampling time: 6:47:58.516010
+05:17 bilby INFO    : Sampling time: 6:48:22.059292
+05:17 bilby INFO    : Sampling time: 6:48:03.775416
+05:17 bilby INFO    : Sampling time: 6:48:00.695220
+05:17 bilby INFO    : Sampling time: 6:48:07.580101
+Traceback (most recent call last):
+  File "/work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/inference_nmma.py", line 95, in <module>
+Traceback (most recent call last):
+  File "/work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/inference_nmma.py", line 95, in <module>
+    result = bilby.run_sampler(
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+Traceback (most recent call last):
+  File "/work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/inference_nmma.py", line 95, in <module>
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    result = bilby.run_sampler(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/sampler/__init__.py", line 349, in run_sampler
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    move_old_file(output_path, overwrite)
+    result.save_to_file(overwrite=True, extension=save, gzip=gzip, outdir=outdir)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/result.py", line 797, in save_to_file
+    move_old_file(output_path, overwrite)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    move_old_file(output_path, overwrite)
+  File "/home/koehn1/.conda/envs/nmma/lib/python3.11/site-packages/bilby/core/utils/io.py", line 408, in move_old_file
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: './outdir_nmma/injection_gaussian_result.json'
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+05:17 bilby INFO    : Summary of results:
+nsamples: 6426
+ln_noise_evidence:  0.000
+ln_evidence: -6.575 +/-  0.136
+ln_bayes_factor: -6.575 +/-  0.136
+
+05:17 bilby INFO    : Writing samples file to /work/koehn1/fiesta/paper_fiesta/src/paper_fiesta/injections/GRB/afgpy_gaussian_5/outdir_nmma/injection_gaussian_posterior_samples.dat
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
