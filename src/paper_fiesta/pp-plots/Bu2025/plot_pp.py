@@ -13,18 +13,26 @@ plt.rcParams.update({"text.usetex" : True,
         "axes.edgecolor" : "black",
         "font.serif" : ["Computer Modern Serif"]})
 
-def boundary(p_array, n: int):
-    a = [stats.binom.ppf(0.025, n, p) for p in p_array]
-    b = [stats.binom.ppf(0.975, n, p) for p in p_array]
+def boundary(p_array, n: int, alpha=0.05):
+    a = [stats.binom.ppf(alpha/2, n, p) for p in p_array]
+    b = [stats.binom.ppf(1-alpha/2, n, p) for p in p_array]
     return np.array(a)/n, np.array(b)/n
 
 def pp_plot(ax, quantiles, p_array, double=False, color="blue"):
-    lower_boundary, upper_boundary = boundary(p_array, quantiles.shape[0])
     if double:
         quantiles = 2*np.minimum(quantiles, 1- quantiles)
-    ax.hist(quantiles, density = True, cumulative=True, histtype="step", bins=p_array, color=color)
+    #quantiles = self.recovered_quantiles[p] #2*jnp.minimum(self.recovered_quantiles[p], 1-self.recovered_quantiles[p])
+    ax.hist(quantiles, density = True, cumulative = True, histtype="step", bins=p_array, color=color)
     ax.plot(p_array, p_array, linestyle= "dotted", color = "lightgrey")
-    ax.fill_between(p_array, lower_boundary, upper_boundary, color = "lightgrey", alpha = 0.3)
+
+    lower_boundary, upper_boundary = boundary(p_array, quantiles.shape[0])
+    ax.fill_between(p_array, lower_boundary, upper_boundary, color="lightgrey", alpha=0.6)
+
+    lower_boundary, upper_boundary = boundary(p_array, quantiles.shape[0], alpha=0.32)
+    ax.fill_between(p_array, lower_boundary, upper_boundary, color="lightgrey", alpha=0.8)
+
+    lower_boundary, upper_boundary = boundary(p_array, quantiles.shape[0], alpha=0.003)
+    ax.fill_between(p_array, lower_boundary, upper_boundary, color="lightgrey", alpha=0.4)
     
     ax.set_xlabel("posterior quantile $p$", fontsize=15)
     ax.set_ylabel("CDF", fontsize=15)
@@ -54,6 +62,7 @@ prior_list = [inclination_EM,
 
 
 quantiles = np.loadtxt("./outdir/quantiles.txt")
+quantiles_surrogate = np.loadtxt("../Bu2025_surrogate/outdir/quantiles.txt")
 hdi_quantiles = np.loadtxt("./outdir/hdi_quantiles.txt")
 params = np.loadtxt("./outdir/params.txt")
 
@@ -73,10 +82,14 @@ p_array = np.linspace(0, 1, 50)
 for j, cax in enumerate(ax.flatten()[:-1]):
     
     # when the injected value is at the edge of the prior, we should exclude the injected value because the quantile will be 0 or 1
-    mask = (params[:,j]> prior_list[j].xmin) & (params[:,j] <  prior_list[j].xmax)
+    #mask = (params[:,j]> prior_list[j].xmin) & (params[:,j] <  prior_list[j].xmax)
 
     pp_plot(cax, quantiles[:, j], p_array, double=double_list[j], color="purple")
-    cax.text(0.1, 0.8, parameter_names[j], fontsize=15)
+    #if double_list[j]:
+    #    cax.hist(2*np.minimum(quantiles_surrogate[:, j], 1-quantiles_surrogate[:, j]), density = True, cumulative = True, histtype="step", bins=p_array, color="purple", linestyle="dashed")
+    #else:
+    cax.hist(quantiles_surrogate[:, j], density = True, cumulative = True, histtype="step", bins=p_array, color="purple", linestyle="dashed")
+    cax.text(0.1, 0.8, parameter_names[j], fontsize=18)
 
 
 handles = []
@@ -85,7 +98,7 @@ for c in ["purple"]:
     handles.append(handle)
 
 ax[3,1].set_axis_off()
-ax[0,0].legend(handles=handles, labels=["Surrogate \\textsc{possis}"], fontsize=12, fancybox=False, framealpha=1)
+#ax[0,0].legend(handles=handles, labels=["Surrogate \\textsc{possis}"], fontsize=12, fancybox=False, framealpha=1)
 
 
 fig.savefig("./outdir/pp_plot_KN.pdf", dpi=250)

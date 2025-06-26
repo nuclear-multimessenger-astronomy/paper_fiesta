@@ -70,11 +70,11 @@ injection = InjectionKN(filters=FILTERS,
                         detection_limit=24
                         )
 
-injection_prior = ConstrainedPrior([Uniform(xmin=0.4, xmax=np.pi/2, naming=['inclination_EM']),
+injection_prior = ConstrainedPrior([Uniform(xmin=0., xmax=np.pi/2, naming=['inclination_EM']),
                                     Uniform(xmin=-3.0, xmax=-1.30, naming=["log10_mej_dyn"]),
-                                    Uniform(xmin=0.12, xmax=0.24, naming=["v_ej_dyn"]),
-                                    Uniform(xmin=0.18, xmax=0.32, naming=["Ye_dyn"]),
-                                    Uniform(xmin=-2.0, xmax=-1., naming=["log10_mej_wind"]),
+                                    Uniform(xmin=0.12, xmax=0.28, naming=["v_ej_dyn"]),
+                                    Uniform(xmin=0.15, xmax=0.35, naming=["Ye_dyn"]),
+                                    Uniform(xmin=-2.0, xmax=-0.886, naming=["log10_mej_wind"]),
                                     Uniform(xmin=0.05, xmax=0.15, naming=["v_ej_wind"]),
                                     Uniform(xmin=0.2, xmax=0.4, naming=["Ye_wind"])
 ])

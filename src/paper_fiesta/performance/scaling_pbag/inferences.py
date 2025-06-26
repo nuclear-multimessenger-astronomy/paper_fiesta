@@ -6,6 +6,7 @@ import gc
 import numpy as np
 import jax
 import jax.numpy as jnp
+from arviz import ess
 
 from fiesta.inference.prior import Uniform, Constraint
 from fiesta.inference.prior_dict import ConstrainedPrior
@@ -81,17 +82,13 @@ rng_key = jax.random.PRNGKey(3451)
 
 likelihood = EMLikelihood(model,
                           data,
-                          FILTERS,
+                          trigger_time=58849.,
                           tmin=1e-2, 
                           tmax = 200.0,
-                          trigger_time=58849.,
                           detection_limit=None,
                           fixed_params={"luminosity_distance": 40.0, "redshift": 0.0}
                           )
 
-mass_matrix = jnp.eye(prior.n_dim)
-eps = 5e-3
-local_sampler_arg = {"step_size": mass_matrix * eps}
 outdir = f"./outdir/"
 
 timing = []
@@ -111,7 +108,6 @@ for j in [10, 20, 40, 80]:
                     n_epochs = 20,
                     n_local_steps = 50,
                     n_global_steps = 200,
-                    local_sampler_arg=local_sampler_arg,
                     outdir=outdir,
                     seed=np.random.randint(10_000),
                     systematics_file=f"./systematics_{j}.yaml",
@@ -125,7 +121,6 @@ for j in [10, 20, 40, 80]:
 
         compile_time = timeit.timeit('setup_fiesta()', globals=globals(), number=1)
         total_time = timeit.timeit("sample()", globals=globals(), number=1)
-        with open("./outdir/H100_timing.txt", "a+") as f:
-            f.write(f"{j} {total_time:.6e} {compile_time:.6e} \n")
-        #timing.append([j, sampling_time, compile_time])
-
+        ESS = ess(fiesta.posterior_samples).drop_vars('log_prob').to_array().mean().item()
+        with open("./outdir/RTX_6000_timing.txt", "a+") as f:
+            f.write(f"{j} {total_time:.6e} {compile_time:.6e} {ESS} \n")
