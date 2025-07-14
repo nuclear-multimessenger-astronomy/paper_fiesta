@@ -41,7 +41,7 @@ Ye_dyn = Uniform(xmin=0.15, xmax=0.35, naming=["Ye_dyn"])
 log10_mej_wind = Uniform(xmin=-2.0, xmax=-0.89, naming=["log10_mej_wind"])
 v_ej_wind = Uniform(xmin=0.05, xmax=0.15, naming=["v_ej_wind"])
 Ye_wind = Uniform(xmin=0.2, xmax=0.4, naming=["Ye_wind"])
-sys_err = Uniform(xmin=0.15, xmax=1.5, naming=["sys_err"])
+sys_err = Uniform(xmin=0.5, xmax=1.5, naming=["sys_err"])
 
 prior_list = [inclination_EM, 
               log10_mej_dyn,
@@ -63,18 +63,13 @@ prior = ConstrainedPrior(prior_list)
 detection_limit = None
 likelihood = EMLikelihood(model,
                           data,
-                          FILTERS,
+                          trigger_time=trigger_time,
                           tmin=0.2,
                           tmax = 26.0,
-                          trigger_time=trigger_time,
                           detection_limit = detection_limit,
                           fixed_params={"luminosity_distance": 40.0, "redshift": 0.0},
                           )
 
-
-mass_matrix = jnp.eye(prior.n_dim)
-eps = 5e-3
-local_sampler_arg = {"step_size": mass_matrix * eps}
 
 # Save for postprocessing
 outdir = f"./outdir_fiesta/"
@@ -91,7 +86,6 @@ fiesta = Fiesta(likelihood,
                 n_epochs = 20,
                 n_local_steps = 50,
                 n_global_steps = 200,
-                local_sampler_arg=local_sampler_arg,
                 outdir = outdir)
 
 fiesta.sample(jax.random.PRNGKey(92))
