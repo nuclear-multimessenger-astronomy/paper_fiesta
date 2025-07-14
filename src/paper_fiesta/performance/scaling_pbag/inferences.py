@@ -122,5 +122,5 @@ for j in [10, 20, 40, 80]:
         compile_time = timeit.timeit('setup_fiesta()', globals=globals(), number=1)
         total_time = timeit.timeit("sample()", globals=globals(), number=1)
         ESS = ess(fiesta.posterior_samples).drop_vars('log_prob').to_array().mean().item()
-        with open("./outdir/RTX_6000_timing.txt", "a+") as f:
+        with open("./outdir/H100_timing.txt", "a+") as f:
             f.write(f"{j} {total_time:.6e} {compile_time:.6e} {ESS} \n")
