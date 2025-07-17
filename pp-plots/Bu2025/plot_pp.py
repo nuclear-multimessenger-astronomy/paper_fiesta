@@ -98,7 +98,7 @@ for c in ["purple"]:
     handles.append(handle)
 
 ax[3,1].set_axis_off()
-#ax[0,0].legend(handles=handles, labels=["Surrogate \\textsc{possis}"], fontsize=12, fancybox=False, framealpha=1)
+ax[-1,1].legend(handles=handles, labels=["Surrogate \\textsc{possis}"], fontsize=15, fancybox=False, framealpha=1, loc="lower center")
 
 
 fig.savefig("./outdir/pp_plot_KN.pdf", dpi=250)
