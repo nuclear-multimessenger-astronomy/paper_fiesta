@@ -54,7 +54,7 @@ plot_performance_5000(ax2, "./outdir/H100_timing.txt", color="red", label="NVIDI
 
 ax.set_xlabel("Number of sampling parameters", fontsize=14)
 ax.set_ylabel("Sampling time/ESS in s", fontsize=14)
-ax2.set_ylabel("Sampling time(5000 ESS) in s", fontsize=14)
+ax2.set_ylabel("Sampling time (ESS=5000) in s", fontsize=14)
 #ax.set(xscale="log", yscale="log")
 
 ax.set_xticks([10, 20, 40, 80], [10, 20, 40, 80], fontsize=12)
